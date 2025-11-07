@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    font-family:
+      'Inter',
+      'Source Sans 3',
+      'Segoe UI',
+      system-ui,
+      -apple-system,
+      sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    font-feature-settings:
+      'ss01' on,
+      'cv02' on,
+      'tnum' on;
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    background-color: #fefcf7;
+    background-image:
+      radial-gradient(circle at 15% 10%, rgba(236, 254, 255, 0.6), transparent 45%),
+      radial-gradient(circle at 75% 0%, rgba(254, 249, 195, 0.45), transparent 35%),
+      linear-gradient(180deg, rgba(253, 252, 247, 0.95), rgba(241, 245, 249, 0.9));
+    min-height: 100vh;
+  }
+
+  *:focus-visible {
+    outline: 3px solid #4338ca;
+    outline-offset: 3px;
+  }
+
+  ::selection {
+    @apply bg-amber-100 text-slate-900;
+  }
+
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+}
