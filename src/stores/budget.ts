@@ -6,12 +6,13 @@ import { type SavingsMode, savingsForMode } from '@/utils/savings'
 import { BUDGET_CONFIG, STORAGE_CONFIG } from '@/config/constants'
 
 const GOAL_PER_YEAR = BUDGET_CONFIG.GOAL_PER_YEAR
+const BASE_URL = import.meta.env.BASE_URL
 
 type State = {
   baseMassnahmen: Massnahme[]
   customMassnahmen: Massnahme[]
   massnahmen: Massnahme[]
-  selectedIds: number[]
+  selectedIds: string[]
   loading: boolean
   error: string | null
   filter: FilterState
@@ -21,9 +22,30 @@ type State = {
 const STORAGE_KEY = STORAGE_CONFIG.STORAGE_KEY
 
 type StoredPayload = {
-  selectedIds?: number[]
+  selectedIds?: string[]
   yearMode?: SavingsMode
   customMassnahmen?: Massnahme[]
+}
+
+function normalizeId(value: unknown): string | null {
+  if (typeof value === 'string') {
+    const trimmed = value.trim()
+    return trimmed ? trimmed : null
+  }
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return String(value)
+  }
+  return null
+}
+
+function normalizeIdArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return []
+  const ids = new Set<string>()
+  for (const entry of value) {
+    const normalized = normalizeId(entry)
+    if (normalized) ids.add(normalized)
+  }
+  return [...ids]
 }
 
 function sanitizeStoredMassnahmen(payload: unknown): Massnahme[] {
@@ -31,11 +53,11 @@ function sanitizeStoredMassnahmen(payload: unknown): Massnahme[] {
   const normalized: Massnahme[] = []
   for (const item of payload) {
     if (!item || typeof item !== 'object') continue
-    const candidate = item as Partial<Massnahme>
-    if (typeof candidate.id !== 'number' || Number.isNaN(candidate.id)) continue
-    if (typeof candidate.massnahme !== 'string') continue
+    const candidate = item as Partial<Massnahme> & { massnahmen_nummer?: unknown }
+    const normalizedId = normalizeId(candidate.id ?? candidate.massnahmen_nummer)
+    if (!normalizedId || typeof candidate.massnahme !== 'string') continue
     normalized.push({
-      id: candidate.id,
+      id: normalizedId,
       massnahme: candidate.massnahme,
       vorlagennummer: typeof candidate.vorlagennummer === 'string' ? candidate.vorlagennummer : '',
       teilhaushalt: typeof candidate.teilhaushalt === 'string' ? candidate.teilhaushalt : '',
@@ -51,6 +73,67 @@ function sanitizeStoredMassnahmen(payload: unknown): Massnahme[] {
     })
   }
   return normalized
+}
+
+function parseIndexFiles(payload: unknown): string[] {
+  if (Array.isArray(payload)) {
+    return payload
+      .filter((value): value is string => typeof value === 'string' && value.trim().length > 0)
+      .map((value) => value.trim())
+  }
+  if (payload && typeof payload === 'object') {
+    const files = (payload as { files?: unknown }).files
+    if (Array.isArray(files)) {
+      return files
+        .filter((value): value is string => typeof value === 'string' && value.trim().length > 0)
+        .map((value) => value.trim())
+    }
+  }
+  return []
+}
+
+function ensureArray(payload: unknown, label: string): Massnahme[] {
+  if (!Array.isArray(payload)) {
+    throw new Error(`${label} is not an array`)
+  }
+  return payload as Massnahme[]
+}
+
+async function fetchIndexedMassnahmen(): Promise<Massnahme[]> {
+  const indexUrl = `${BASE_URL}massnahmen/index.json`
+  const indexRes = await fetch(indexUrl)
+  if (!indexRes.ok) throw new Error(`Failed to load massnahmen index (HTTP ${indexRes.status})`)
+  const indexPayload = await indexRes.json()
+  const files = parseIndexFiles(indexPayload)
+  if (!files.length) throw new Error('Massnahmen index does not list any files')
+  const datasets = await Promise.all(
+    files.map(async (file) => {
+      const res = await fetch(`${BASE_URL}massnahmen/${file}`)
+      if (!res.ok) throw new Error(`Failed to load ${file} (HTTP ${res.status})`)
+      const payload = await res.json()
+      return ensureArray(payload, file)
+    }),
+  )
+  const merged = datasets.flat()
+  if (!merged.length) throw new Error('Combined massnahmen dataset is empty')
+  return merged
+}
+
+async function fetchLegacyMassnahmen(): Promise<Massnahme[]> {
+  const url = `${BASE_URL}massnahmen.json`
+  const res = await fetch(url)
+  if (!res.ok) throw new Error(`Failed to load ${url} (HTTP ${res.status})`)
+  const payload = await res.json()
+  return ensureArray(payload, 'massnahmen.json')
+}
+
+async function fetchMassnahmenData(): Promise<Massnahme[]> {
+  try {
+    return await fetchIndexedMassnahmen()
+  } catch (error) {
+    console.warn('Falling back to legacy massnahmen.json dataset:', error)
+    return fetchLegacyMassnahmen()
+  }
 }
 
 export const useBudgetStore = defineStore('budget', {
@@ -70,7 +153,7 @@ export const useBudgetStore = defineStore('budget', {
       const set = this.selectedIdSet
       return state.massnahmen.filter((m) => set.has(m.id))
     },
-    selectedIdSet(state): Set<number> {
+    selectedIdSet(state): Set<string> {
       return new Set(state.selectedIds)
     },
     hasSelection(state): boolean {
@@ -124,15 +207,13 @@ export const useBudgetStore = defineStore('budget', {
       try {
         this.loading = true
         this.error = null
-        const res = await fetch(`${import.meta.env.BASE_URL}massnahmen.json`)
-        if (!res.ok) throw new Error(`HTTP ${res.status}`)
-        const defaults: Massnahme[] = await res.json()
+        const defaults = await fetchMassnahmenData()
         this.baseMassnahmen = defaults
 
         // hydrate selection from URL hash or localStorage
         const hash = new URLSearchParams(window.location.hash.replace('#', ''))
         const selParam = hash.get('sel')
-        let initialSelection: number[] = []
+        let initialSelection: string[] = []
         let storedMode: SavingsMode | null = null
         let storedCustom: Massnahme[] = []
 
@@ -142,7 +223,7 @@ export const useBudgetStore = defineStore('budget', {
             const parsed = JSON.parse(raw) as StoredPayload
             storedCustom = sanitizeStoredMassnahmen(parsed?.customMassnahmen)
             if (!selParam && Array.isArray(parsed?.selectedIds)) {
-              initialSelection = parsed.selectedIds
+              initialSelection = normalizeIdArray(parsed.selectedIds)
             }
             if (
               !selParam &&
@@ -160,12 +241,12 @@ export const useBudgetStore = defineStore('budget', {
         if (selParam) {
           initialSelection = selParam
             .split(',')
-            .map((s) => Number(s))
-            .filter((n) => !Number.isNaN(n))
+            .map((s) => s.trim())
+            .filter((s) => s.length > 0)
         }
 
         const baseIds = new Set(defaults.map((m) => m.id))
-        const seenCustom = new Set<number>()
+        const seenCustom = new Set<string>()
         const uniqueCustom = storedCustom.filter((m) => {
           if (baseIds.has(m.id) || seenCustom.has(m.id)) return false
           seenCustom.add(m.id)
@@ -195,7 +276,7 @@ export const useBudgetStore = defineStore('budget', {
       }
     },
 
-    toggle(id: number) {
+    toggle(id: string) {
       const i = this.selectedIds.indexOf(id)
       if (i >= 0) this.selectedIds.splice(i, 1)
       else this.selectedIds.push(id)
@@ -207,9 +288,9 @@ export const useBudgetStore = defineStore('budget', {
     selectAll() {
       this.selectedIds = this.massnahmen.map((m) => m.id)
     },
-    setSelection(ids: number[]) {
+    setSelection(ids: string[]) {
       const availableIds = new Set(this.massnahmen.map((m) => m.id))
-      const unique = Array.from(new Set(ids))
+      const unique = Array.from(new Set(ids.map((id) => id.trim()).filter((id) => id)))
       this.selectedIds = unique.filter((id) => availableIds.has(id))
     },
     patchFilter(patch: Partial<FilterState>) {
@@ -223,24 +304,29 @@ export const useBudgetStore = defineStore('budget', {
       this.yearMode = mode
     },
 
-    addCustomMassnahmen(payloads: Omit<Massnahme, 'id'>[]) {
+    addCustomMassnahmen(payloads: Massnahme[]) {
       if (!payloads.length) return
-      const minExistingId = this.massnahmen.reduce(
-        (min, measure) => Math.min(min, measure.id),
-        Number.POSITIVE_INFINITY,
-      )
-      let nextId = Number.isFinite(minExistingId)
-        ? minExistingId <= 0
-          ? minExistingId - 1
-          : -1
-        : -1
-
-      const newMeasures: Massnahme[] = payloads.map((payload) => {
-        const measure = { id: nextId, ...payload }
-        nextId -= 1
-        return measure
-      })
-
+      const existingIds = new Set(this.massnahmen.map((m) => m.id))
+      const newMeasures: Massnahme[] = []
+      for (const payload of payloads) {
+        const id = normalizeId(payload.id)
+        if (!id || existingIds.has(id)) continue
+        const measure: Massnahme = {
+          ...payload,
+          id,
+          summe_2026:
+            typeof payload.summe_2026 === 'number' && !Number.isNaN(payload.summe_2026)
+              ? payload.summe_2026
+              : 0,
+          summe_2027:
+            typeof payload.summe_2027 === 'number' && !Number.isNaN(payload.summe_2027)
+              ? payload.summe_2027
+              : 0,
+        }
+        existingIds.add(id)
+        newMeasures.push(measure)
+      }
+      if (!newMeasures.length) return
       this.customMassnahmen.push(...newMeasures)
       this.massnahmen = [...this.baseMassnahmen, ...this.customMassnahmen]
       const selectedSet = this.selectedIdSet
@@ -252,10 +338,33 @@ export const useBudgetStore = defineStore('budget', {
     },
 
     updateCustomMassnahmen(payloads: Massnahme[]) {
-      this.customMassnahmen = payloads
+      const baseIds = new Set(this.baseMassnahmen.map((m) => m.id))
+      const seen = new Set<string>()
+      const sanitized: Massnahme[] = []
+      for (const payload of payloads) {
+        const id = normalizeId(payload.id)
+        if (!id || baseIds.has(id) || seen.has(id)) continue
+        seen.add(id)
+        sanitized.push({
+          ...payload,
+          id,
+          summe_2026:
+            typeof payload.summe_2026 === 'number' && !Number.isNaN(payload.summe_2026)
+              ? payload.summe_2026
+              : 0,
+          summe_2027:
+            typeof payload.summe_2027 === 'number' && !Number.isNaN(payload.summe_2027)
+              ? payload.summe_2027
+              : 0,
+        })
+      }
+      this.customMassnahmen = sanitized
       this.massnahmen = [...this.baseMassnahmen, ...this.customMassnahmen]
       const availableIds = new Set(this.massnahmen.map((m) => m.id))
       this.selectedIds = this.selectedIds.filter((id) => availableIds.has(id))
+      if (!this.selectedIds.length && this.massnahmen.length) {
+        this.selectAll()
+      }
     },
 
     resetCustomMassnahmen() {

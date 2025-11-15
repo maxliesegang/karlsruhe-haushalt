@@ -12,7 +12,7 @@ export function useModalManager() {
   // Compensation modal state
   const compensationModalOpen = ref(false)
   const compensationTarget = ref<Massnahme | null>(null)
-  const compensationPlans = ref<Record<number, CompensationEntry[]>>({})
+  const compensationPlans = ref<Record<string, CompensationEntry[]>>({})
 
   // Custom measure modal state
   const customMeasureModalOpen = ref(false)
@@ -24,7 +24,7 @@ export function useModalManager() {
   const compensatedIds = computed(() =>
     Object.entries(compensationPlans.value)
       .filter(([, entries]) => entries.length > 0)
-      .map(([id]) => Number(id)),
+      .map(([id]) => id),
   )
 
   const currentCompensationPlan = computed(() => {
@@ -43,7 +43,7 @@ export function useModalManager() {
     compensationTarget.value = null
   }
 
-  function saveCompensationPlan(payload: { measureId: number; entries: CompensationEntry[] }) {
+  function saveCompensationPlan(payload: { measureId: string; entries: CompensationEntry[] }) {
     compensationPlans.value = {
       ...compensationPlans.value,
       [payload.measureId]: payload.entries.map((entry) => ({ ...entry })),

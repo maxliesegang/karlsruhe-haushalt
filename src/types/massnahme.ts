@@ -1,5 +1,5 @@
 export interface Massnahme {
-  id: number
+  id: string
   vorlagennummer: string
   teilhaushalt: string
   dienststelle: string

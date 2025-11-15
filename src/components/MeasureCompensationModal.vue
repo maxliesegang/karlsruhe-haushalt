@@ -26,10 +26,10 @@ const props = withDefaults(
 
 const emit = defineEmits<{
   (e: 'close'): void
-  (e: 'save', payload: { measureId: number; entries: CompensationEntry[] }): void
+  (e: 'save', payload: { measureId: string; entries: CompensationEntry[] }): void
 }>()
 
-type Entry = { sourceId: number; amount: number | null }
+type Entry = { sourceId: string; amount: number | null }
 type EntryWithMeasure = Entry & { measure: Massnahme }
 
 const filterState = ref<FilterState>(createDefaultFilter())
@@ -88,7 +88,7 @@ const selectedEntriesWithDetails = computed<EntryWithMeasure[]>(() => {
     .filter((entry): entry is EntryWithMeasure => entry !== null)
 })
 
-function defaultAmountForSource(sourceId: number): number | null {
+function defaultAmountForSource(sourceId: string): number | null {
   const measure = measureLookup.value.get(sourceId)
   if (!measure) return null
   const amount = savingsForMode(measure, props.savingsMode)
@@ -128,7 +128,7 @@ function resetFilter() {
   filterState.value = createDefaultFilter()
 }
 
-function toggleSource(id: number) {
+function toggleSource(id: string) {
   const idx = entries.value.findIndex((entry) => entry.sourceId === id)
   if (idx >= 0) {
     entries.value.splice(idx, 1)
@@ -137,7 +137,7 @@ function toggleSource(id: number) {
   }
 }
 
-function updateAmount(id: number, event: Event) {
+function updateAmount(id: string, event: Event) {
   const value = Number((event.target as HTMLInputElement).value)
   const entry = entries.value.find((item) => item.sourceId === id)
   if (!entry) return

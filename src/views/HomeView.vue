@@ -50,7 +50,7 @@ const {
 
 const hasCustomMeasures = computed(() => customMassnahmen.value.length > 0)
 
-function handleCustomMeasureSave(payloads: Omit<Massnahme, 'id'>[]) {
+function handleCustomMeasureSave(payloads: Massnahme[]) {
   store.addCustomMassnahmen(payloads)
 }
 

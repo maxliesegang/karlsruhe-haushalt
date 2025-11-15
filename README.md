@@ -7,7 +7,7 @@ An interactive Vue 3 dashboard that lets you explore and combine the savings mea
 ## Key Features
 
 - Budget hero section that visualizes progress toward the €80 M yearly goal and lets you switch between 2026, 2027 or both years at once.
-- Search and filter controls (free-text, Dienststelle, min/max amounts) that work on the complete dataset contained in `public/massnahmen.json`.
+- Search and filter controls (free-text, Dienststelle, min/max amounts) that work on the complete dataset contained in the JSON files under `public/massnahmen/`.
 - Select/unselect measures to build a savings package; selections persist in `localStorage` and can be shared via the `#sel=` URL hash.
 - Side panel that totals the currently selected measures, compares the result with the target, and allows quick “select all” or “clear” actions.
 - Compensation modal that tracks how a removed measure is balanced by other sources before changes are accepted.
@@ -30,7 +30,7 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:5173` and the app will automatically fetch the bundled `massnahmen.json` file.
+Visit `http://localhost:5173` and the app will automatically fetch the bundled JSON files from `public/massnahmen/`.
 
 ## Project Scripts
 
@@ -45,7 +45,7 @@ Visit `http://localhost:5173` and the app will automatically fetch the bundled `
 
 ## Data & Domain Notes
 
-- `public/massnahmen.json` contains the authoritative dataset and is published verbatim with the app. Each entry includes identifiers, the responsible Dienststelle, and the projected savings for 2026 (`summe_2026`) and 2027 (`summe_2027`).
+- The authoritative dataset lives in `public/massnahmen/*.json` and is published verbatim with the app. Each entry includes identifiers, the responsible Dienststelle, and the projected savings for 2026 (`summe_2026`) and 2027 (`summe_2027`). The list of JSON files to load is defined in `public/massnahmen/index.json`, allowing the dataset to be organized across multiple files.
 - Update the dataset by editing or regenerating that JSON file and re-running `npm run build`. When possible, keep IDs stable so persisted selections remain valid.
 - The selection state is stored in `localStorage` (`ks_sparpaket_v1`). Clearing browser data resets the app back to the “all selected” default.
 - The shareable URL hash follows the `#sel=1,2,3` pattern; copying the current URL captures the active selection for other viewers.

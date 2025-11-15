@@ -1,0 +1,2783 @@
+[
+  {
+    "id": "HHS4_V1",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Stellenstreichung im Dezernat 1 (0,3 VZW, E14)",
+    "summe_2026": 35443,
+    "summe_2027": 36800
+  },
+  {
+    "id": "HHS4_V2",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Stellenstreichung im Dezernat 3 (0,4 VZW, E8)",
+    "summe_2026": 28700,
+    "summe_2027": 29600
+  },
+  {
+    "id": "HHS4_V3",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Besetzungssperre im Dezernat 1 (0,46 VZW E9a)",
+    "summe_2026": 36500,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V4",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Besetzungssperre Fahrbereitschaft (1 VZW, E9b)",
+    "summe_2026": 40700,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V5",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Kündigung der KSC‐Dauerkarten für OB und Sport BM",
+    "summe_2026": 9763,
+    "summe_2027": 9763
+  },
+  {
+    "id": "HHS4_V6",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Kündigung der Lions‐Dauerkarte für Sport BM",
+    "summe_2026": 2737,
+    "summe_2027": 2737
+  },
+  {
+    "id": "HHS4_V7",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Kündigung der Mitgliedschaft Pflegebündnis TRK",
+    "summe_2026": 1000,
+    "summe_2027": 1000
+  },
+  {
+    "id": "HHS4_V8",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Streichung des Kleidergelds für die Bürgermeister*innenfahrer",
+    "summe_2026": 1500,
+    "summe_2027": 1500
+  },
+  {
+    "id": "HHS4_V9",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Dezernate",
+    "massnahme": "Reduzierung der Fahrsicherheitstrainings der Fahrbereitschaft",
+    "summe_2026": 1800,
+    "summe_2027": 1300
+  },
+  {
+    "id": "HHS4_V10",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Streichung der Zuschüsse an Karlsruher Sanitätsorganisationen",
+    "summe_2026": 4590,
+    "summe_2027": 4590
+  },
+  {
+    "id": "HHS4_V11",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Einsparung eines E‐Fahrzeuges in der Zentralen Poststelle",
+    "summe_2026": 3000,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V12",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Optimierung durch Neuausschreibung Postdienstleistungen",
+    "summe_2026": 20000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_V13",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Sachkostenreduzierung Hausverwaltung Rathaus und Haus Solms",
+    "summe_2026": 6000,
+    "summe_2027": 6000
+  },
+  {
+    "id": "HHS4_V14",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Zentrale Vergabestelle (1,00 VZW, E9A)",
+    "summe_2026": 78872,
+    "summe_2027": 78872
+  },
+  {
+    "id": "HHS4_V15",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Servicedienste (0,17 VZW, E3)",
+    "summe_2026": 9627,
+    "summe_2027": 1203
+  },
+  {
+    "id": "HHS4_V16",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Zentrale Poststelle (1,00 VZW, E5)",
+    "summe_2026": 0,
+    "summe_2027": 60784
+  },
+  {
+    "id": "HHS4_V17",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Hauptregistratur (0,50 VZW, E5)",
+    "summe_2026": 30392,
+    "summe_2027": 22794
+  },
+  {
+    "id": "HHS4_V18",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Haustechnik / Pfortendienst (1 VZW, E6)",
+    "summe_2026": 0,
+    "summe_2027": 65517
+  },
+  {
+    "id": "HHS4_V19",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Zentraler Einkauf (0,30 VZW, E11)",
+    "summe_2026": 27479,
+    "summe_2027": 27479
+  },
+  {
+    "id": "HHS4_V20",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Besetzungssperre Zentrale Vergabestelle (0,30 VZW, A 9)",
+    "summe_2026": 26580,
+    "summe_2027": 26580
+  },
+  {
+    "id": "HHS4_V21",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Reduzierung des Verpflegungsstandards bei Gremiensitzungen",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V22",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Ausfall der Gedenkreise 2026 nach Gurs, stattdessen Durchführung einer Jugendgedenkreise und Teilnahme an einer\nzentralen Gedenkfeier in Baden‐Württemberg",
+    "summe_2026": 3000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V23",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Reduzierung der Bewirtungsleistungen insgesamt",
+    "summe_2026": 2500,
+    "summe_2027": 2500
+  },
+  {
+    "id": "HHS4_V24",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Portokostenreduzierung in der Zentralen Poststelle",
+    "summe_2026": 100000,
+    "summe_2027": 100000
+  },
+  {
+    "id": "HHS4_V25",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Streichung des jährlichen Grillfests nach der letzten Gemeinderatssitzung vor der Sommerpause",
+    "summe_2026": 4000,
+    "summe_2027": 4000
+  },
+  {
+    "id": "HHS4_V26",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Pauschale Sachkostenreduzierung im Bereich Städtepartnerschaften, Projektpartnerschaften und Patenschaften um\n~15%",
+    "summe_2026": 33000,
+    "summe_2027": 35250
+  },
+  {
+    "id": "HHS4_V27",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Pauschale Sachkostenreduzierung im Bereich Repräsentationsgeschäfte (national / international) um ~10%",
+    "summe_2026": 19250,
+    "summe_2027": 22250
+  },
+  {
+    "id": "HHS4_V28",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle\nProjektcontrolling",
+    "massnahme": "Stellenstreichung bei SPC (0,3 VZW)",
+    "summe_2026": 12419,
+    "summe_2027": 21169
+  },
+  {
+    "id": "HHS4_V29",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle\nProjektcontrolling",
+    "massnahme": "Allgemeine Standardreduzierungen in der SPC",
+    "summe_2026": 300,
+    "summe_2027": 300
+  },
+  {
+    "id": "HHS4_V30",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle SAM",
+    "massnahme": "Besetzungssperre Leitung SAM aufgrund von organisatorischer Umstrukturierung",
+    "summe_2026": 94200,
+    "summe_2027": 28800
+  },
+  {
+    "id": "HHS4_V31",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle SAM",
+    "massnahme": "Reduzierung Budget für strategisches Marketing",
+    "summe_2026": 15000,
+    "summe_2027": 15000
+  },
+  {
+    "id": "HHS4_V32",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle SAM",
+    "massnahme": "Reduzierung Budget für europäische Angelegenheiten",
+    "summe_2026": 25000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_V33",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle SAM",
+    "massnahme": "Reduzierung Budget für grenzüberschreitende Zusammenarbeit",
+    "summe_2026": 33477,
+    "summe_2027": 33477
+  },
+  {
+    "id": "HHS4_V34",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle Verwaltungs‐\nund\nManagemententwicklung",
+    "massnahme": "Reduzierung Budget bei der Implementierung zeitgemäßer und agiler Arbeitsweisen",
+    "summe_2026": 87144,
+    "summe_2027": 87144
+  },
+  {
+    "id": "HHS4_V35",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle Verwaltungs‐\nund\nManagemententwicklung",
+    "massnahme": "Reduzierung Budget bei der Innen‐ und Außendarstellung der IQ‐Zukunftsthemen, ihrer Projekte und Aufgaben",
+    "summe_2026": 13829,
+    "summe_2027": 13829
+  },
+  {
+    "id": "HHS4_V36",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Stabsstelle Verwaltungs‐\nund\nManagemententwicklung",
+    "massnahme": "Reduzierung Budget bei Vernetzung und Strategie",
+    "summe_2026": 3873,
+    "summe_2027": 3873
+  },
+  {
+    "id": "HHS4_V37",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Gesamtpersonalrat",
+    "massnahme": "Besetzungssperre bei Freistellung für GPR (0,6 VZW, Bewertung E12)",
+    "summe_2026": 66840,
+    "summe_2027": 66840
+  },
+  {
+    "id": "HHS4_V38",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Gesamtpersonalrat",
+    "massnahme": "Besetzungssperre bei Freistellung für GPR (0,21 VZW, E11)",
+    "summe_2026": 22071,
+    "summe_2027": 22071
+  },
+  {
+    "id": "HHS4_V39",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Verschiebung aller beamtenrechtlichen Beförderungen auf Termine ab dem 1. August eines Kalenderjahres",
+    "summe_2026": 500000,
+    "summe_2027": 500000
+  },
+  {
+    "id": "HHS4_V40",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Kein zentrales Angebot der Weiterqualifizierungsmaßnahmen für Erzieher*innen u. MA in manuell‐handwerklichen\nBereichen, dezentral möglich",
+    "summe_2026": 85000,
+    "summe_2027": 85000
+  },
+  {
+    "id": "HHS4_V41",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Fit für Führung und Fachkarriere ‐ Reduzierung der geplanten Durchgänge pro Jahr von 2 auf 1",
+    "summe_2026": 0,
+    "summe_2027": 17000
+  },
+  {
+    "id": "HHS4_V42",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Streichung der zentralen Mittel für Coachingangebote für Führungstandems, dezentral möglich",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V43",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Standardreduzierung bei der zentralen Ausbildung (Ausschreibung in Medien, Aufenthalt in Bärenthal und bei\nHonorierungsveranstaltung)",
+    "summe_2026": 98000,
+    "summe_2027": 98000
+  },
+  {
+    "id": "HHS4_V44",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Tagung für leitende Führungskräfte wird auf ein kostengünstigeres Format verändert",
+    "summe_2026": 0,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V45",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Kostenreduzierungen bei dem zentralen Curriculum \"Lust auf Perspektiven (LUP)\" ‐ Auswahlverfahren und Umsetzung",
+    "summe_2026": 40000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V46",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Befristete Arbeitszeitreduzierungen (freiwillig) ‐ Abteilung \"Gesundheit und Prävention\"",
+    "summe_2026": 23440,
+    "summe_2027": 11140
+  },
+  {
+    "id": "HHS4_V47",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Besetzungssperren bei offenen oder freiwerdenden Stellen in verschiedenen Bereichen",
+    "summe_2026": 562300,
+    "summe_2027": 267800
+  },
+  {
+    "id": "HHS4_V48",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Kürzung des Budgets für das Betriebliche Gesundheitsmanagement ‐ Kompensation durch Umschichtung und\nKrankenkassen",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V49",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Mietkostenersparnis durch Aufgabe der Büros in der Stephanienstraße 13",
+    "summe_2026": 6132,
+    "summe_2027": 12264
+  },
+  {
+    "id": "HHS4_V50",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Stellenstreichungen bedingt durch organisatorische Maßnahmen in verschiedenen Bereichen",
+    "summe_2026": 31300,
+    "summe_2027": 80100
+  },
+  {
+    "id": "HHS4_V51",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Einsparungen durch Deckelung der Ausbildungskosten ‐ keine (deutliche) Ausweitung der Ausbildungsplätze, wie\nursprünglich geplant",
+    "summe_2026": 150000,
+    "summe_2027": 150000
+  },
+  {
+    "id": "HHS4_V52",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Verzicht auf geplantes Mitarbeiter*innenempfehlungsprogramm",
+    "summe_2026": 35000,
+    "summe_2027": 35000
+  },
+  {
+    "id": "HHS4_V53",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Einsparungen bei Stellenausschreibungen (weniger Print, mehr Online, keine Headhunter etc.)",
+    "summe_2026": 100000,
+    "summe_2027": 100000
+  },
+  {
+    "id": "HHS4_V54",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Standardreduzierung bei der Ehrungsfeier von Arbeitsjubilaren",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V55",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Mietkostenersparnis durch Aufgabe des IT‐Schulungszentrums ab 2028",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V56",
+    "vorlagennummer": "2025/0609",
+    "teilhaushalt": "1100",
+    "dienststelle": "Personal‐ und\nOrganisationsamt",
+    "massnahme": "Reduzierung des externen Fortbildungsbudgets für POA‐Mitarbeiter*innen",
+    "summe_2026": 14000,
+    "summe_2027": 14000
+  },
+  {
+    "id": "HHS4_V57",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre Sachbearbeiter*in Graphikdesign",
+    "summe_2026": 7258,
+    "summe_2027": 46100
+  },
+  {
+    "id": "HHS4_V58",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre Assistent*in Wahlorganisation",
+    "summe_2026": 33950,
+    "summe_2027": 33950
+  },
+  {
+    "id": "HHS4_V59",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre Sachbearbeiter*in EDV",
+    "summe_2026": 7258,
+    "summe_2027": 46100
+  },
+  {
+    "id": "HHS4_V60",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre (0,5 VZW) wissenschaftliche Mitarbeiter*in \"Nachhaltige Stadtentwicklung\"",
+    "summe_2026": 51500,
+    "summe_2027": 51500
+  },
+  {
+    "id": "HHS4_V61",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre (0,1 VZW) stellvertretende*r. Bereichsleiter*in, wissenschaftliche Mitarbeiter*in ‐ freiwillige\nArbeitszeitreduzierung",
+    "summe_2026": 811,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V62",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre (0,2 VZW) wissenschaftliche*r Mitarbeiter*in Stadtentwicklung/Bürgerbeteiligung ‐ freiwillige\nArbeitszeitreduzierung",
+    "summe_2026": 6487,
+    "summe_2027": 20600
+  },
+  {
+    "id": "HHS4_V63",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre (1 VZW) wissenschaftliche*r Mitarbeiter*in ehrenamtliches Engagement ‐ Elternzeit",
+    "summe_2026": 48650,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V64",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Besetzungssperre (0,2 VZW) Sachbearbeiter*in Umsetzung und Betreuung Stadtteilhäuser ‐ freiwillige\nArbeitszeitreduzierung",
+    "summe_2026": 19000,
+    "summe_2027": 13400
+  },
+  {
+    "id": "HHS4_V65",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung von Softwarelizenzen in der Verwaltungsabteilung",
+    "summe_2026": 2260,
+    "summe_2027": 2260
+  },
+  {
+    "id": "HHS4_V66",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung von Dienstleistungen im Büro für Mitwirkung und Engagement",
+    "summe_2026": 25142,
+    "summe_2027": 25142
+  },
+  {
+    "id": "HHS4_V67",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung von Softwarelizenzen in der Statistikstelle",
+    "summe_2026": 1000,
+    "summe_2027": 1000
+  },
+  {
+    "id": "HHS4_V68",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung von Dienstleistungen in der Abteilung Stadtentwicklung",
+    "summe_2026": 32419,
+    "summe_2027": 32419
+  },
+  {
+    "id": "HHS4_V69",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung Sachkostenbudget für das ISEK 2040 (Bewirtung und Raummieten sowie Sonderaufträge)",
+    "summe_2026": 25000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_V70",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung der Sicherheits‐ und Bewachungsdienstleistungen bei Wahlen (Briefwahl und Wahllager) auf Null",
+    "summe_2026": 40000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V71",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Einstellung der kostenlosen Taxifahrten für Wahlhelfer*innen",
+    "summe_2026": 6000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V72",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Einstellung der kostenlosen Park‐Tickets für Wahlhelfer*innen",
+    "summe_2026": 2000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V73",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Einstellung der kostenlosen ÖPNV‐Tickets für Wahlhelfer*innen",
+    "summe_2026": 3000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V74",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Einstellung der OB‐Kandidatenvorstellung 2028",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V75",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Gemeinsamer Versand der Stimmzettel mit der Wahlbenachrichtigung bei der Kommunalwahl 2029 ‐ in anderen Städten\nbereits praktiziert",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V76",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung der Entschädigung für die Hausmeister bei Wahlen (von 100 Euro auf 85 Euro)",
+    "summe_2026": 900,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V77",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung der Wahlhelferentschädigung pro Funktion (je ~15 Euro)",
+    "summe_2026": 22500,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V78",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Besetzungssperre Redaktion (0,25 VZW)",
+    "summe_2026": 27657,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V79",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Besetzungssperre Digitale Kommunikation (0,39 VZW)",
+    "summe_2026": 29769,
+    "summe_2027": 22288
+  },
+  {
+    "id": "HHS4_V80",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Besetzungssperre Redaktion (0,04 VZW)",
+    "summe_2026": 737,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V81",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Besetzungssperre Redaktionsvolontariat (1 VZW)",
+    "summe_2026": 30018,
+    "summe_2027": 30018
+  },
+  {
+    "id": "HHS4_V82",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Einstellen Medienmonitoring / Pressespiegel",
+    "summe_2026": 21000,
+    "summe_2027": 21000
+  },
+  {
+    "id": "HHS4_V83",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Kündigung sämtlicher Zeitungsabonnements Print",
+    "summe_2026": 4600,
+    "summe_2027": 4600
+  },
+  {
+    "id": "HHS4_V84",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Rücknahme Fremdvergabe Grußworte",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V85",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Verzicht auf Weiterentwicklung Webanalyse‐Tool Matomo",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V86",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Kostenersparnis durch Mehrsprachigkeit auf karlsruhe.de durch KI ‐ bereits umgesetzt",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V87",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Reduktion einzelner Ausgabenpositionen des Corporate Design",
+    "summe_2026": 1000,
+    "summe_2027": 1000
+  },
+  {
+    "id": "HHS4_V88",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Reduktion einzelner Ausgabenpositionen der Foto‐/Videografie",
+    "summe_2026": 2000,
+    "summe_2027": 2000
+  },
+  {
+    "id": "HHS4_V89",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1300",
+    "dienststelle": "Presse‐ und\nInformationsamt",
+    "massnahme": "Änderung von Inhalt und Erscheinungsweise der StadtZeitung (Amtsblatt der Stadt Karlsruhe) ‐ Print 10 Mal pro Jahr,\ntagesaktuelle Meldungen über Pressedienst, App, Internet und Social Media",
+    "summe_2026": 85963,
+    "summe_2027": 121838
+  },
+  {
+    "id": "HHS4_V90",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1400",
+    "dienststelle": "Rechnungsprüfungsamt",
+    "massnahme": "Besetzungssperre Abteilung Bautechnische Prüfung (1 VZW)",
+    "summe_2026": 64978,
+    "summe_2027": 111390
+  },
+  {
+    "id": "HHS4_V91",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1400",
+    "dienststelle": "Rechnungsprüfungsamt",
+    "massnahme": "Besetzungssperre Abteilung Unternehmensprüfung (0,7 VZW)",
+    "summe_2026": 97230,
+    "summe_2027": 97230
+  },
+  {
+    "id": "HHS4_V92",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1400",
+    "dienststelle": "Rechnungsprüfungsamt",
+    "massnahme": "Besetzungssperre Abteilung Unternehmensprüfung (0,3 VZW)",
+    "summe_2026": 41670,
+    "summe_2027": 41670
+  },
+  {
+    "id": "HHS4_V93",
+    "vorlagennummer": "2025/0648",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Grötzingen",
+    "massnahme": "Besetzungssperre Bauamtsleitung (0,3 VZW)",
+    "summe_2026": 22280,
+    "summe_2027": 33420
+  },
+  {
+    "id": "HHS4_V94",
+    "vorlagennummer": "2025/0648",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Grötzingen",
+    "massnahme": "Besetzungssperren Verwaltung (insgesamt 0,41 VZW)",
+    "summe_2026": 33200,
+    "summe_2027": 34200
+  },
+  {
+    "id": "HHS4_V95",
+    "vorlagennummer": "2025/0648",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Grötzingen",
+    "massnahme": "Besetzungssperre Hausmeister (1 VZW)",
+    "summe_2026": 11310,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V96",
+    "vorlagennummer": "",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Wettersbach",
+    "massnahme": "Abschluss Archivarbeiten",
+    "summe_2026": 1870,
+    "summe_2027": 1870
+  },
+  {
+    "id": "HHS4_V97",
+    "vorlagennummer": "",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Wolfartsweier",
+    "massnahme": "Kompletter Verzicht auf Verfügungsmittel des Ortsvorstehers",
+    "summe_2026": 818,
+    "summe_2027": 818
+  },
+  {
+    "id": "HHS4_V98",
+    "vorlagennummer": "2025/0681",
+    "teilhaushalt": "1500",
+    "dienststelle": "Stadtamt Durlach",
+    "massnahme": "Allgemeine Mehrerträge aus Vermietungseinnahmen",
+    "summe_2026": 5400,
+    "summe_2027": 5400
+  },
+  {
+    "id": "HHS4_V99",
+    "vorlagennummer": "2025/0681",
+    "teilhaushalt": "1500",
+    "dienststelle": "Stadtamt Durlach",
+    "massnahme": "Mehrerträge aus Vermietungseinnahmen bei der Karlsburg",
+    "summe_2026": 5100,
+    "summe_2027": 5100
+  },
+  {
+    "id": "HHS4_V100",
+    "vorlagennummer": "2025/0681",
+    "teilhaushalt": "1500",
+    "dienststelle": "Stadtamt Durlach",
+    "massnahme": "Mehrerträge aus Vermietungseinnahmen bei der Nikolauskapelle",
+    "summe_2026": 12100,
+    "summe_2027": 12100
+  },
+  {
+    "id": "HHS4_V101",
+    "vorlagennummer": "2025/0681",
+    "teilhaushalt": "1500",
+    "dienststelle": "Stadtamt Durlach",
+    "massnahme": "Mehrerträge aus Vermietungseinnahmen bei der Festhalle",
+    "summe_2026": 26200,
+    "summe_2027": 26200
+  },
+  {
+    "id": "HHS4_V102",
+    "vorlagennummer": "2025/0681",
+    "teilhaushalt": "1500",
+    "dienststelle": "Stadtamt Durlach",
+    "massnahme": "Mehrerträge aus Vermietungseinnahmen bei dem Rathausgewölbe",
+    "summe_2026": 1200,
+    "summe_2027": 1200
+  },
+  {
+    "id": "HHS4_V103",
+    "vorlagennummer": "2025/0681",
+    "teilhaushalt": "1500",
+    "dienststelle": "Stadtamt Durlach",
+    "massnahme": "Allgemeine amtsinterne Besetzungssperre von 3 Monaten",
+    "summe_2026": 52000,
+    "summe_2027": 52000
+  },
+  {
+    "id": "HHS4_V104",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung (externe) Fortbildungsbudgets über alle Kostenstellen hinweg",
+    "summe_2026": 56000,
+    "summe_2027": 56000
+  },
+  {
+    "id": "HHS4_V105",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung des Sachkostenbudgets im Bereich Informationssysteme und Workflows",
+    "summe_2026": 122000,
+    "summe_2027": 122000
+  },
+  {
+    "id": "HHS4_V106",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung Dienstleistungsbudget für SAP‐Finanzen",
+    "summe_2026": 210000,
+    "summe_2027": 210000
+  },
+  {
+    "id": "HHS4_V107",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung des Marketing‐ und Weiterentwicklungsbudgets für die Karlsruhe.App",
+    "summe_2026": 80000,
+    "summe_2027": 130000
+  },
+  {
+    "id": "HHS4_V108",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung des Budgets der Amtsleitung für Strategieberatung",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_V109",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung des Dienstleistungsbudgets im Bereich E‐Government",
+    "summe_2026": 58000,
+    "summe_2027": 58000
+  },
+  {
+    "id": "HHS4_V110",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Kürzung der Mittel für den Bot (RPA‐Projekt) ‐ nur Weiterbetrieb möglich, keine Ausweitung",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V111",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Streichung der Mittel für eine Prozessmanagementsoftware",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V112",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Reduzierung Budget ‐ Stabsstelle Strategie und Smart City",
+    "summe_2026": 35000,
+    "summe_2027": 60000
+  },
+  {
+    "id": "HHS4_V113",
+    "vorlagennummer": "2025/0494\n2025/0677",
+    "teilhaushalt": "1700",
+    "dienststelle": "IT‐Amt",
+    "massnahme": "Konsolidierung der zentralen Softwareanwendungen der Stadtverwaltung",
+    "summe_2026": 500000,
+    "summe_2027": 500000
+  },
+  {
+    "id": "HHS4_V114",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Neueingruppierung (Kontroll‐) Außendienst Steuerabteilung (ab 2028) (E9A auf E6)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V115",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Personaleinsparung Vollstreckungsaußendienst (1 VZW) durch Prozessanpassungen",
+    "summe_2026": 62100,
+    "summe_2027": 62100
+  },
+  {
+    "id": "HHS4_V116",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Vorrangiger Umstieg auf Softphone (Reduzierung Mobilfunkkosten)",
+    "summe_2026": 18000,
+    "summe_2027": 18000
+  },
+  {
+    "id": "HHS4_V117",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Einsparung von Windows‐Lizenzen (auf \"Home‐Ebene\")",
+    "summe_2026": 7200,
+    "summe_2027": 7200
+  },
+  {
+    "id": "HHS4_V118",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Konsequente Reduzierung von Output‐Geräten (Drucker)",
+    "summe_2026": 25000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_V119",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Einstellung IKVS ‐ digitaler Haushalt",
+    "summe_2026": 26000,
+    "summe_2027": 26000
+  },
+  {
+    "id": "HHS4_V120",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Städtische Dienstleistungen nur gegen Vorkasse, Direktzahlung bzw. SEPA‐Lastschriften ‐ weniger\nForderungsabschreibungen",
+    "summe_2026": 300000,
+    "summe_2027": 300000
+  },
+  {
+    "id": "HHS4_V121",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Klimaschutz (0,5 VZW)",
+    "summe_2026": 75600,
+    "summe_2027": 75600
+  },
+  {
+    "id": "HHS4_V122",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Assistenz Gleichstellungsbüro (0,5 VZW)",
+    "summe_2026": 34000,
+    "summe_2027": 34000
+  },
+  {
+    "id": "HHS4_V123",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Assistenz untere Verwaltungsbehörde (0,6 VZW)",
+    "summe_2026": 23800,
+    "summe_2027": 23800
+  },
+  {
+    "id": "HHS4_V124",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Bautechnikerin und Assistenz Grundstücksbewertungsstelle (0,75 VZW)",
+    "summe_2026": 63200,
+    "summe_2027": 63200
+  },
+  {
+    "id": "HHS4_V125",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Sachbearbeitung Datenschutz (0,5 VZW) durch Zurruhesetzung",
+    "summe_2026": 47200,
+    "summe_2027": 51500
+  },
+  {
+    "id": "HHS4_V126",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre stellvertretende Amtsleitung (0,1 VZW) ‐ freiwillige, befristete Arbeitszeitreduzierung",
+    "summe_2026": 16600,
+    "summe_2027": 16600
+  },
+  {
+    "id": "HHS4_V127",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Naturschutzbehörde (0,2 VZW) ‐ freiwillige, befristete Arbeitszeitreduzierung",
+    "summe_2026": 23460,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V128",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Wasserbehörde (0,11 VZW) ‐ Elternzeit",
+    "summe_2026": 5376,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V129",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Denkmalschutzbehörde (0,3 VZW) ‐ freiwillige, befristete Arbeitszeitreduzierung",
+    "summe_2026": 35190,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V130",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Besetzungssperre Grundstücksbewertungsstelle (0,15 VZW) ‐ freiwillige, befristete Arbeitszeitreduzierung",
+    "summe_2026": 2000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V131",
+    "vorlagennummer": "2025/0567",
+    "teilhaushalt": "3100",
+    "dienststelle": "Umwelt‐ und Arbeitsschutz",
+    "massnahme": "Anpassung an Bedarf ‐ Budget Ehrenamt im Umweltschutz",
+    "summe_2026": 3000,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V132",
+    "vorlagennummer": "2025/0567",
+    "teilhaushalt": "3100",
+    "dienststelle": "Umwelt‐ und Arbeitsschutz",
+    "massnahme": "Reduzierung Budget für Aktionen und Veranstaltungen Umweltpädagogik und Öffentlichkeitsarbeit",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V133",
+    "vorlagennummer": "2025/0567",
+    "teilhaushalt": "3100",
+    "dienststelle": "Umwelt‐ und Arbeitsschutz",
+    "massnahme": "Reduzierung Budget Grüne Stadt ‐ personelle Kapazität \"Koordinierungsstelle Grüne Stadt\" zu 50% für Umsetzung\nHitzeaktionsplan",
+    "summe_2026": 15000,
+    "summe_2027": 15000
+  },
+  {
+    "id": "HHS4_V134",
+    "vorlagennummer": "2025/0567",
+    "teilhaushalt": "3100",
+    "dienststelle": "Umwelt‐ und Arbeitsschutz",
+    "massnahme": "Anpassung an Bedarf ‐ Budget Gewässerschutzkonzepte",
+    "summe_2026": 3000,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V135",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Erhöhung der allgemeinen Bußgeldsätze um 20%",
+    "summe_2026": 220000,
+    "summe_2027": 220000
+  },
+  {
+    "id": "HHS4_V136",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Einführung einer Gebühr für die Herstellung der Passbilder für die Dokumente der Ausländerbehörde (Point ID) durch\nden Bund (6 Euro)",
+    "summe_2026": 63000,
+    "summe_2027": 63000
+  },
+  {
+    "id": "HHS4_V137",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Beschaffung einer neuen, kostengünstigeren Terminvereinbarungssoftware",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V138",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Kürzung des Amtsleitungsbudget",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V139",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Kündigung Leasingvertrag Brieföffnungsmaschine ‐ eigene Maschine",
+    "summe_2026": 2800,
+    "summe_2027": 2800
+  },
+  {
+    "id": "HHS4_V140",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Wegfall Erinnerungsschreiben bei nicht bezahlten Verwarnungen",
+    "summe_2026": 1080,
+    "summe_2027": 1080
+  },
+  {
+    "id": "HHS4_V141",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Bereinigung des digitalen Datenbestandes bei den Akten der Ausländerbehörde ‐ neues Preismodell",
+    "summe_2026": 60000,
+    "summe_2027": 60000
+  },
+  {
+    "id": "HHS4_V142",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Stellenstreichung Finanzen \"Aufbau Finanzkompetenz\" ‐ konnte zweimal nicht besetzt werden",
+    "summe_2026": 84200,
+    "summe_2027": 35100
+  },
+  {
+    "id": "HHS4_V143",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Besetzungssperre Bürgerdienste ‐ Telefonie (2 VZW) ‐ aktuell unbesetzt",
+    "summe_2026": 131900,
+    "summe_2027": 135900
+  },
+  {
+    "id": "HHS4_V144",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Besetzungssperre Bürgerbüro (2 VZW) ‐ aktuell unbesetzt",
+    "summe_2026": 155900,
+    "summe_2027": 160600
+  },
+  {
+    "id": "HHS4_V145",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Besetzungssperre Bereich Bewohnerparken (1 VZW) ‐ Wechsel Fachverfahren, Digitalisierung",
+    "summe_2026": 66000,
+    "summe_2027": 67900
+  },
+  {
+    "id": "HHS4_V146",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Besetzungssperre Zulassungsstelle (3 VZW) ‐ eine Teamleitungsstelle, zwei Sachbearbeitungsstellen",
+    "summe_2026": 226900,
+    "summe_2027": 233700
+  },
+  {
+    "id": "HHS4_V147",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Besetzungssperre Bußgeldstelle (2,8 VZW) ‐ eine Teamleitungsstelle und 1,8 Sachbearbeitungsstellen",
+    "summe_2026": 175300,
+    "summe_2027": 229500
+  },
+  {
+    "id": "HHS4_V148",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Stellenstreichung Standesamt (1 VZW) ‐ Eintritt Ruhestand",
+    "summe_2026": 71000,
+    "summe_2027": 73100
+  },
+  {
+    "id": "HHS4_V149",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Stellenstreichung Ausländerbehörde ‐ geschaffen für Ukrainekrise (6 VZW)",
+    "summe_2026": 195700,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V150",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Einsparung von weiteren Stellen im gesamten Bereich des OA (2026: 16, 2027: 3)",
+    "summe_2026": 361015,
+    "summe_2027": 471024
+  },
+  {
+    "id": "HHS4_V151",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung von Stellenanteilen im Sachgebiet Gebäude‐ und Projektmanagement ‐ 1,21 VZW",
+    "summe_2026": 74249,
+    "summe_2027": 74929
+  },
+  {
+    "id": "HHS4_V152",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung einer Stelle nach Eintritt der Stelleninhaberin in den Ruhestand im Sachgebiet Service (Bürgerbüro) ‐ 1VZW",
+    "summe_2026": 71000,
+    "summe_2027": 71000
+  },
+  {
+    "id": "HHS4_V153",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung von zwei Sachbearbeitungsstellen der Abteilung Bürgerangelegenheiten ‐ 2 VZW",
+    "summe_2026": 149800,
+    "summe_2027": 149800
+  },
+  {
+    "id": "HHS4_V154",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung einer Stelle im Bürgerbüro Ost ‐ 1 VZW",
+    "summe_2026": 71000,
+    "summe_2027": 71000
+  },
+  {
+    "id": "HHS4_V155",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung einer Stelle First‐Level‐Telefonie im Servicecenter 115 ‐ 1 VZW",
+    "summe_2026": 66000,
+    "summe_2027": 66000
+  },
+  {
+    "id": "HHS4_V156",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Streichung einer bis Ende 2027 befristeten Stelle im Sachgebiet Gaststätten und Gewerbe ‐ 1 VZW",
+    "summe_2026": 0,
+    "summe_2027": 110500
+  },
+  {
+    "id": "HHS4_V157",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung der Stelle Fachkoordinator*in beim KOD ‐ aktuell unbesetzt ‐ 1 VZW",
+    "summe_2026": 95000,
+    "summe_2027": 95000
+  },
+  {
+    "id": "HHS4_V158",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Sperrung von Stellen beim Gemeindlichen Vollzugsdienst (ruhender Verkehr) ‐ 2 VZW",
+    "summe_2026": 132000,
+    "summe_2027": 132000
+  },
+  {
+    "id": "HHS4_V159",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Ertragssteigerung durch Bußgeldeinnahmen",
+    "summe_2026": 502954,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V160",
+    "vorlagennummer": "2025/0590",
+    "teilhaushalt": "3700",
+    "dienststelle": "Branddirektion",
+    "massnahme": "Reduzierung Budget Jubiläum \"100 Jahre Berufsfeuerwehr Karlsruhe“",
+    "summe_2026": 25000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V161",
+    "vorlagennummer": "2025/0590",
+    "teilhaushalt": "3700",
+    "dienststelle": "Branddirektion",
+    "massnahme": "Zurückstellen des Abbaus nicht mehr benötigter Sirenenanlagen (bereits deaktiviert)",
+    "summe_2026": 50000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V162",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3700",
+    "dienststelle": "Branddirektion",
+    "massnahme": "Zurückstellen der Sanierung der Löschwasserbrunnen ‐ geringe Bedarfswahrscheinlichkeit",
+    "summe_2026": 75000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V163",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Transportkostenzuschusses für Bus‐Sonderverkehre der Europäischen Schule ab dem Schuljahr\n2026/2027",
+    "summe_2026": 46700,
+    "summe_2027": 80000
+  },
+  {
+    "id": "HHS4_V164",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Zuschusses an \"Klever\" ‐ Umstrukturierung über StJA, Angebot nicht in Gefahr",
+    "summe_2026": 0,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V165",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung der Zuschüsse für Abi‐ und Entlassfeiern ‐ Saalmiete",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V166",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Kürzung der Schulbudgets aller Schulen um 5 %",
+    "summe_2026": 200000,
+    "summe_2027": 200000
+  },
+  {
+    "id": "HHS4_V167",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Zuschusses an den Förderverein der Schule am Weinweg (IT‐Mitarbeiter)",
+    "summe_2026": 2400,
+    "summe_2027": 2400
+  },
+  {
+    "id": "HHS4_V168",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Keine Wartung/Austausch der Luftreinigungsgeräte aus Corona‐Zeit",
+    "summe_2026": 0,
+    "summe_2027": 21100
+  },
+  {
+    "id": "HHS4_V169",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung Preisverleihung Europäischer Wettbewerb ‐ Wettbewerb selbst bleibt bestehen",
+    "summe_2026": 4000,
+    "summe_2027": 4000
+  },
+  {
+    "id": "HHS4_V170",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Abschaffung Kostenübernahme Mittagessen‐Entgelt bei kurzfristiger Erkrankung bei Online‐Bestellung",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_V171",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Besetzungssperre bei Vakanzen von 4 Monaten",
+    "summe_2026": 800000,
+    "summe_2027": 800000
+  },
+  {
+    "id": "HHS4_V172",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Kürzung des Sachaufwandsetats aller Abteilungen des Kulturamts in Höhe von 5%",
+    "summe_2026": 114900,
+    "summe_2027": 114900
+  },
+  {
+    "id": "HHS4_V173",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Besetzungssperre aufgrund Einstellung der Projektförderung freier und innovativer Projekte (siehe auch Maßnahme GR)",
+    "summe_2026": 180300,
+    "summe_2027": 180300
+  },
+  {
+    "id": "HHS4_V174",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Besetzungssperre aufgrund der Schließung des Stadtmuseums ‐ Einstellung des Ausstellungsprogramms (siehe auch\nMaßnahme GR)",
+    "summe_2026": 146156,
+    "summe_2027": 142833
+  },
+  {
+    "id": "HHS4_V175",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Stellenabbau (Klavierlehrer) ‐ Ruhestand",
+    "summe_2026": 0,
+    "summe_2027": 65000
+  },
+  {
+    "id": "HHS4_V176",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Stellenumwandlung durch Aufgabenverschiebung",
+    "summe_2026": 11710,
+    "summe_2027": 23420
+  },
+  {
+    "id": "HHS4_V177",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Kooperation Singen macht Schule nicht mehr kostenfrei",
+    "summe_2026": 17640,
+    "summe_2027": 17640
+  },
+  {
+    "id": "HHS4_V178",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Aufhebung Fortbildungspflicht bei Lehrkräften",
+    "summe_2026": 3500,
+    "summe_2027": 3500
+  },
+  {
+    "id": "HHS4_V179",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Mehreinnahmen durch Abschaffung des 25 Stunden Pools für Öffentlichkeitsarbeit",
+    "summe_2026": 50000,
+    "summe_2027": 50000
+  },
+  {
+    "id": "HHS4_V180",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Besetzungssperre Jugendmusikschule Neureut (0,64 VZW)",
+    "summe_2026": 25400,
+    "summe_2027": 52300
+  },
+  {
+    "id": "HHS4_V181",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Schnellere Überführung von Care Leaver*innen in eigenen Wohnraum durch Vermittlung",
+    "summe_2026": 380000,
+    "summe_2027": 380000
+  },
+  {
+    "id": "HHS4_V182",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Karlsruher Startchancen Strategie ‐ Ersatz Jugendhilfebedarf durch Infrastrukturmaßnahmen",
+    "summe_2026": 420000,
+    "summe_2027": 420000
+  },
+  {
+    "id": "HHS4_V183",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Umsetzung der KJSG‐Reform (Eingliederungshilfe für Kinder und Jugendliche)",
+    "summe_2026": 1565300,
+    "summe_2027": 1565300
+  },
+  {
+    "id": "HHS4_V184",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung der Projektmittel Schulsozialarbeit (1.000 Euro pro SchuSo‐MA)",
+    "summe_2026": 354000,
+    "summe_2027": 354000
+  },
+  {
+    "id": "HHS4_V185",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Schließung Heilpädagogischer Hort",
+    "summe_2026": 126700,
+    "summe_2027": 220200
+  },
+  {
+    "id": "HHS4_V186",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Steuerungsmaßnahmen im Bereich der Eingliederungshilfen",
+    "summe_2026": 3630000,
+    "summe_2027": 3630000
+  },
+  {
+    "id": "HHS4_V187",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Karlsruher Startchancen Strategie ‐ Ersatz Eingliederungshilfe durch Infrastruktur (siehe auch M2)",
+    "summe_2026": 300000,
+    "summe_2027": 300000
+  },
+  {
+    "id": "HHS4_V188",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung im Bereich Wohnungslosenhilfe",
+    "summe_2026": 500000,
+    "summe_2027": 500000
+  },
+  {
+    "id": "HHS4_V189",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung der Unterbringungskapazitäten für Geflüchtete ‐ Rückgang Fallzahlen",
+    "summe_2026": 2500000,
+    "summe_2027": 2500000
+  },
+  {
+    "id": "HHS4_V190",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung Budgets im Fachbereich Beratung und Prävention um 10% (Verwaltung + Jugendschutz/Präventionsbüro\nSucht)",
+    "summe_2026": 20400,
+    "summe_2027": 20400
+  },
+  {
+    "id": "HHS4_V191",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Strukturelle Veränderungen in den Beratungsstellen des Fachbereiches Beratung und Prävention",
+    "summe_2026": 139000,
+    "summe_2027": 139000
+  },
+  {
+    "id": "HHS4_V192",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Einstellung Leihgroßelternprojekt (Paritätische Sozialdienste) ‐ wenig Ehrenamtliche",
+    "summe_2026": 8500,
+    "summe_2027": 8500
+  },
+  {
+    "id": "HHS4_V193",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Projekt \"Wellcome\" (Paritätische Sozialdienste) ‐ Frühe Hilfen",
+    "summe_2026": 32000,
+    "summe_2027": 32000
+  },
+  {
+    "id": "HHS4_V194",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung Budget Ambulante Hilfen ‐ Anpassung an Erfahrungswerte",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V195",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung Verwaltungsbudget um 10% (Fortbildungen und Geschäftsaufwendungen)",
+    "summe_2026": 178300,
+    "summe_2027": 178300
+  },
+  {
+    "id": "HHS4_V196",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierung des Ansatzes für \"Wohnraumakquise durch Kooperation\" aufgrund Rückgang Menschen aus Ukraine",
+    "summe_2026": 400000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V197",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Wiederbesetzungssperre im Bereich Jugend und Soziales des Stadtamts Durlach (1,5 VZW ab 2026, weitere 0,5 VZW ab\n2027).",
+    "summe_2026": 122800,
+    "summe_2027": 165800
+  },
+  {
+    "id": "HHS4_V198",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Wiederbesetzungssperre von 3 Monaten",
+    "summe_2026": 100000,
+    "summe_2027": 50000
+  },
+  {
+    "id": "HHS4_V199",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Personalentwicklung vor externer Besetzung / Freie Anteile um 0,5 VZW reduzieren",
+    "summe_2026": 47500,
+    "summe_2027": 51500
+  },
+  {
+    "id": "HHS4_V200",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Kostenreduzierung bei Realisierungswettbewerb Bahnhofplatz Nord",
+    "summe_2026": 0,
+    "summe_2027": 125000
+  },
+  {
+    "id": "HHS4_V201",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Abschluss Innenstadtkonto ‐ Umstrukturierung Budget",
+    "summe_2026": 30000,
+    "summe_2027": 30000
+  },
+  {
+    "id": "HHS4_V202",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Straffung Sitzungen Gestaltungsbeirat sowie Streichung Öffentlichkeitsarbeit",
+    "summe_2026": 35000,
+    "summe_2027": 15000
+  },
+  {
+    "id": "HHS4_V203",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Einstellung Studie \"Gewerbe an die Schiene\"",
+    "summe_2026": 40000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V204",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Planungen zur Hub werden eingestellt",
+    "summe_2026": 40000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V205",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Verzicht auf Verkehrsdatenerhebung mittels Zählschleifen aufgrund Verschlechterung der Verkehrsdatenqualität",
+    "summe_2026": 8500,
+    "summe_2027": 8500
+  },
+  {
+    "id": "HHS4_V206",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Reduzierung von Fußgängerzählungen in Sanierungsgebieten ‐ nur noch Beginn und Ende der Sanierung",
+    "summe_2026": 32000,
+    "summe_2027": 32000
+  },
+  {
+    "id": "HHS4_V207",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Entfall Fußgängerzählungen für die Wifö",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V208",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Verschiebung Bplan \"Durlacher Allee, Güterumgehungsbahn Karlsruhe 4210, Durlacher Allee 106 (Alter Gleisbauhof) und\nOstring\" (2028 auf 2030)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V209",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Kritische Betrachtung Begleitung von Bplänen / Planungen",
+    "summe_2026": 46500,
+    "summe_2027": 46500
+  },
+  {
+    "id": "HHS4_V210",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Einstellung des Betriebs eines Stadtmodells ‐ Digitalisierung",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V211",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Einstellung des Zuschusses für das Fahrradleihsystem der Stadt/KVV",
+    "summe_2026": 0,
+    "summe_2027": 270000
+  },
+  {
+    "id": "HHS4_V212",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Stellenstreichung Verwaltung durch stadtweite Umstrukturierungen",
+    "summe_2026": 30000,
+    "summe_2027": 30000
+  },
+  {
+    "id": "HHS4_V213",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Einstellung Werbe‐/Marketingmaßnahmen Fahrradfreundliche Stadt",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_V214",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Kündigung Mitgliedschaft Netzwerk der Michelin Standorte ‐ bereits erfolgt",
+    "summe_2026": 4000,
+    "summe_2027": 4000
+  },
+  {
+    "id": "HHS4_V215",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Fokussierung von Stellenausschreibungen auf Online Portale",
+    "summe_2026": 3000,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V216",
+    "vorlagennummer": "2025/0560",
+    "teilhaushalt": "6100",
+    "dienststelle": "Stadtplanungsamt",
+    "massnahme": "Pauschalreduzierung des Ansatzes um 205.000 Euro für alle Sanierungsgebiete",
+    "summe_2026": 205000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V217",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Besetzungssperre Scan‐Zentrum (0,5 VZW) ‐ Betrieb nicht gefährdet",
+    "summe_2026": 41600,
+    "summe_2027": 42900
+  },
+  {
+    "id": "HHS4_V218",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung im Bereich gezielter Ankäufe durch Strategieanpassung (0,5 VZW)",
+    "summe_2026": 39700,
+    "summe_2027": 40900
+  },
+  {
+    "id": "HHS4_V219",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Besetzungssperre Grundstücksverkehr (0,25 VZW) ‐ freiwillige, befristete Arbeitszeitreduzierung",
+    "summe_2026": 28400,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V220",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Besetzungssperre Grundstückverkehr West (2 VZW) ‐ Elternzeiten",
+    "summe_2026": 237600,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V221",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Stellenstreichung aufgrund Änderung der Arbeitsweise sowie Digitalisierung der Vorkaufsrechtsbescheinigungen (1 VZW,\nab 2029)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V222",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Beauftragung Verkehrswertgutachten ‐ Anpassung Budget an Erfahrungswerte",
+    "summe_2026": 35000,
+    "summe_2027": 35000
+  },
+  {
+    "id": "HHS4_V223",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Budget und Rückstellung für Gewährleistung ‐ Anpassung an Erfahrungswerte",
+    "summe_2026": 180000,
+    "summe_2027": 180000
+  },
+  {
+    "id": "HHS4_V224",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Budget Kauf und Unterhaltung von Kleingeräten",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V225",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Budget für die Anpachtung landwirtschaftlicher Flächen ‐ geringe Fallzahl",
+    "summe_2026": 16000,
+    "summe_2027": 16000
+  },
+  {
+    "id": "HHS4_V226",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Anpassung Budget KFZ‐Vermessung (Kraftstoff und Reparatur) an Fahrzeugbestand",
+    "summe_2026": 3000,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V227",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Budget Dienstkleidung ‐ aktuelle Neuausstattung und Optimierung",
+    "summe_2026": 4000,
+    "summe_2027": 4000
+  },
+  {
+    "id": "HHS4_V228",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Digitalisierung Liegenschaftskataster ‐ Einsparung Stelle Sachbearbeitung",
+    "summe_2026": 63300,
+    "summe_2027": 97800
+  },
+  {
+    "id": "HHS4_V229",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Besetzungssperre zur Konsolidierung Karten, Grafik 3D‐Welt und Sensor City",
+    "summe_2026": 86700,
+    "summe_2027": 89300
+  },
+  {
+    "id": "HHS4_V230",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Stellenanteil Printservice ‐ Nutzung Rathausdruckerei",
+    "summe_2026": 42600,
+    "summe_2027": 43900
+  },
+  {
+    "id": "HHS4_V231",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Besetzungssperre GIS‐Entwicklung (0,23 VZW) ‐ befristete, freiwillige Arbeitszeitreduzierung",
+    "summe_2026": 21200,
+    "summe_2027": 21800
+  },
+  {
+    "id": "HHS4_V232",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Stellenanteile bei Vermessung durch teilweisen Verzicht topographischer Aufnahmen (wichtige Bestandteile\nund besondere Anlässe)",
+    "summe_2026": 179800,
+    "summe_2027": 185200
+  },
+  {
+    "id": "HHS4_V233",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Ansatz KFZ bei topographischer Vermessung (Fahrzeug, Kraftstoff, Reparatur, Stellplatz)",
+    "summe_2026": 3840,
+    "summe_2027": 3840
+  },
+  {
+    "id": "HHS4_V234",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung Sachbearbeitung Bodenordnungsverfahren (0,5 VZW) ‐ \"Zukunft Nord\", Reduzierung Umlegungsverfahren",
+    "summe_2026": 60100,
+    "summe_2027": 61900
+  },
+  {
+    "id": "HHS4_V235",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Besetzungssperre zur Konsolidierung des Bereichs Sanierungsverfahren (1 VZW)",
+    "summe_2026": 120200,
+    "summe_2027": 123800
+  },
+  {
+    "id": "HHS4_V236",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Reduzierung allgemeine Geschäftsausgaben (insb. Softwarepflege und Verbrauchsmaterial)",
+    "summe_2026": 67000,
+    "summe_2027": 67000
+  },
+  {
+    "id": "HHS4_V237",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Zusätzliche Vermietung von Parkierungsflächen",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V238",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Mehreinnahmen Erbbaurechte ‐ Neuabschlüsse",
+    "summe_2026": 55000,
+    "summe_2027": 55000
+  },
+  {
+    "id": "HHS4_V239",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Befristete Nichtbesetzung einer Stelle aufgrund von Elternzeit ‐ 6 Monate in 2027",
+    "summe_2026": 0,
+    "summe_2027": 60100
+  },
+  {
+    "id": "HHS4_V240",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Befristete Nichtbesetzung einer Stelle aufgrund von Elternzeit ‐ 10 Monate in 2026 und 12 Monate in 2027",
+    "summe_2026": 65000,
+    "summe_2027": 83200
+  },
+  {
+    "id": "HHS4_V241",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Befristete Nichtbesetzung von einem Stellenanteil (0,5 VZW) im Bereich Grundstücksverkehr aufgrund von befristeter\nArbeitszeitreduzierung in 2027 ‐ 12 Monate",
+    "summe_2026": 0,
+    "summe_2027": 45200
+  },
+  {
+    "id": "HHS4_V242",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Befristete Nichtbesetzung von einem Stellenanteil (0,5 VZW) im Bereich Grundstücksverkehr aufgrund von befristeter\nArbeitszeitreduzierung in 2027 ‐ 6 Monate",
+    "summe_2026": 0,
+    "summe_2027": 55250
+  },
+  {
+    "id": "HHS4_V243",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Stromeinsparung durch forcierte Umrüstung der Straßenbeleuchtung auf LED",
+    "summe_2026": 40000,
+    "summe_2027": 60000
+  },
+  {
+    "id": "HHS4_V244",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Einsparung von Festnetztelefonie ‐ nur noch Mobiltelefonie",
+    "summe_2026": 25000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_V245",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Einsparung von Softwareprodukten und ‐lizenzen",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_V246",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Mehrerträge durch höhere Mautgebühren, die durch den Bund erhoben werden",
+    "summe_2026": 390000,
+    "summe_2027": 390000
+  },
+  {
+    "id": "HHS4_V247",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Verzögerte Besetzung von Personalstellen",
+    "summe_2026": 596000,
+    "summe_2027": 530000
+  },
+  {
+    "id": "HHS4_V248",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Wegfall der Reprofilierung von Gewässergräben ‐ keine Verringerung der Hochwassersicherheit",
+    "summe_2026": 85000,
+    "summe_2027": 85000
+  },
+  {
+    "id": "HHS4_V249",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Einstellung der Werbung auf Stadtbahnen für das Mobilitätsportal",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V250",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Dauerhafte Streichung der Ambiente‐ und Freizeitflächenbeleuchtung",
+    "summe_2026": 3000,
+    "summe_2027": 3000
+  },
+  {
+    "id": "HHS4_V251",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Verlängerung des Turnus des hygienebedingten Sandwechsels auf Spielplätzen",
+    "summe_2026": 35000,
+    "summe_2027": 35000
+  },
+  {
+    "id": "HHS4_V252",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Dauerhafter Verzicht auf die Durchführung des Wettbewerbs \"Gartenträume\"",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V253",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Teilweises Ersetzen gekaufter Blumenzwiebeln durch eigengezogene Blumen im Zoologischen Stadtgarten",
+    "summe_2026": 7500,
+    "summe_2027": 7500
+  },
+  {
+    "id": "HHS4_V254",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Weitere dauerhafte Reduzierung des Wechselflors",
+    "summe_2026": 30000,
+    "summe_2027": 30000
+  },
+  {
+    "id": "HHS4_V255",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Reduzierung des Pflegestandards im Zoologischen Stadtgarten",
+    "summe_2026": 50000,
+    "summe_2027": 50000
+  },
+  {
+    "id": "HHS4_V256",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Dauerhafte Einsparung der Floristikgruppe (2,5 VZW)",
+    "summe_2026": 231247,
+    "summe_2027": 231247
+  },
+  {
+    "id": "HHS4_V257",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Reduzierung des Mittelansatzes im Förderprogramm für Hof‐, Dach‐ und Fassadenbegrünung",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V258",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Stellenstreichung Maler*in (1 VZW) sowie dauerhafte Einsparung der Malerwerkstatt",
+    "summe_2026": 71100,
+    "summe_2027": 71100
+  },
+  {
+    "id": "HHS4_V259",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Stellenstreichung im Bereich Transport‐ und Umzugsdienstleistungen (4,0 VZW)",
+    "summe_2026": 59125,
+    "summe_2027": 59125
+  },
+  {
+    "id": "HHS4_V260",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Stellenstreichung Werbetechnik und Mediengestaltungsdienstleistungen (2 VZW, ab 2028)",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V261",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Verzicht auf Bepflanzung von Balkonkästen an der Rathausfassade",
+    "summe_2026": 2000,
+    "summe_2027": 2000
+  },
+  {
+    "id": "HHS4_V262",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Ganzjähriger Verbleib des portugiesischen Lorbeers auf dem Marktplatz",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V263",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Nichtbesetzung Stelle für die Grünflächenpflege in Durlach (1,06 VZW in 2026, 0,23 VZW in 2027)",
+    "summe_2026": 66800,
+    "summe_2027": 15200
+  },
+  {
+    "id": "HHS4_V264",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Umstellung Kasse Nord des Zoologischen Stadtgarten auf Online‐Tickets",
+    "summe_2026": 57000,
+    "summe_2027": 75000
+  },
+  {
+    "id": "HHS4_V265",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Besetzungssperre Kasse (1 VZW)",
+    "summe_2026": 88600,
+    "summe_2027": 88600
+  },
+  {
+    "id": "HHS4_V266",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Stellenstreichung Amtsbot*in/Aufseher*in (1 VZW)",
+    "summe_2026": 56496,
+    "summe_2027": 56754
+  },
+  {
+    "id": "HHS4_V267",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Verschiebung von nicht zwingend notwendigen Bauunterhaltungsmaßnahmen",
+    "summe_2026": 100000,
+    "summe_2027": 100000
+  },
+  {
+    "id": "HHS4_V268",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Reduzierung des Marketingbudgets",
+    "summe_2026": 65000,
+    "summe_2027": 65000
+  },
+  {
+    "id": "HHS4_V269",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Reduzierung des Veranstaltungsangebots",
+    "summe_2026": 60000,
+    "summe_2027": 45000
+  },
+  {
+    "id": "HHS4_V270",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Reduzierung des Fortbildungangebots",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_V271",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Abschaffung nicht mehr benötigter Festnetztelefone",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_V272",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Zweckgebundenes Sponsoring der Volksbank pur",
+    "summe_2026": 42016,
+    "summe_2027": 42016
+  },
+  {
+    "id": "HHS4_V273",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Besetzungssperre Kurator*in Zoopädagogik (1 VZW)",
+    "summe_2026": 85620,
+    "summe_2027": 103025
+  },
+  {
+    "id": "HHS4_V274",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Besetzungssperre Betriebsmeister*in (0,2 VZW)",
+    "summe_2026": 16532,
+    "summe_2027": 16192
+  },
+  {
+    "id": "HHS4_V275",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Besetzungssperre Tierpfleger*in Affenhaus (1 VZW)",
+    "summe_2026": 65517,
+    "summe_2027": 65966
+  },
+  {
+    "id": "HHS4_V276",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Besetzungssperre Tierpfleger*in Exotenhaus (1 VZW)",
+    "summe_2026": 28300,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V277",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Aussetzen Azubiprogramm Ausbildung Weltweit",
+    "summe_2026": 15000,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V278",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Reduzierung der Zoopädagogischen Angebote",
+    "summe_2026": 15000,
+    "summe_2027": 15000
+  },
+  {
+    "id": "HHS4_V279",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Schließung der Betriebskantine (1 VZW, ab 2028)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V280",
+    "vorlagennummer": "2025/0549",
+    "teilhaushalt": "6900",
+    "dienststelle": "Friedhof‐ und\nBestattungsamt",
+    "massnahme": "Stellenstreichung Friedhofsarbeiter*in (1 VZW)",
+    "summe_2026": 60000,
+    "summe_2027": 60800
+  },
+  {
+    "id": "HHS4_V281",
+    "vorlagennummer": "2025/0549",
+    "teilhaushalt": "6900",
+    "dienststelle": "Friedhof‐ und\nBestattungsamt",
+    "massnahme": "Teilweiser Verzicht auf die externe Vergabe von Reinigungsleistungen",
+    "summe_2026": 65000,
+    "summe_2027": 65000
+  },
+  {
+    "id": "HHS4_V282",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6900",
+    "dienststelle": "Friedhof‐ und\nBestattungsamt",
+    "massnahme": "Verwendung von Spenden für Aufwendungen des Denkmalschutzes und der Denkmalpflege auf Friedhöfen",
+    "summe_2026": 660000,
+    "summe_2027": 460000
+  },
+  {
+    "id": "HHS4_V283",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Mehrerträge aus Maßnahmen Haushaltssicherungsstufe 3",
+    "summe_2026": 22350,
+    "summe_2027": 22350
+  },
+  {
+    "id": "HHS4_V284",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Gebühren im Bereich Großmarkt ‐ Mehrerträge in Folge von\nBeschlussvorlage 2023/1200/2",
+    "summe_2026": 60000,
+    "summe_2027": 60000
+  },
+  {
+    "id": "HHS4_V285",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Gebühren im Bereich Wochenmärkte ‐ Mehrerträge in Folge von\nBeschlussvorlage 2023/1200/2",
+    "summe_2026": 35000,
+    "summe_2027": 35000
+  },
+  {
+    "id": "HHS4_V286",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Gebühren im Bereich Jahrmärkte und Christkindlesmarkt ‐ Mehrerträge in Folge von\nBeschlussvorlage 2023/1200/2",
+    "summe_2026": 31000,
+    "summe_2027": 31000
+  },
+  {
+    "id": "HHS4_V287",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Privatrechtliche Leistungsentgelte im Bereich Großmarkt ‐ Mehrerträge",
+    "summe_2026": 84000,
+    "summe_2027": 84000
+  },
+  {
+    "id": "HHS4_V288",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Privatrechtliche Leistungsentgelte im Bereich Jahrmärkte und Christkindlesmarkt ‐ Mehrerträge",
+    "summe_2026": 55000,
+    "summe_2027": 55000
+  },
+  {
+    "id": "HHS4_V289",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Privatrechtliche Leistungsentgelte im Bereich Messplatz‐ und Festplätzevermietungen ‐ Mehrerträge in Folge von\nBeschlussvorlage 2023/1200/2",
+    "summe_2026": 80000,
+    "summe_2027": 80000
+  },
+  {
+    "id": "HHS4_V290",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Minderausgaben Großmarktreinigung",
+    "summe_2026": 55000,
+    "summe_2027": 55000
+  },
+  {
+    "id": "HHS4_V291",
+    "vorlagennummer": "2025/0565",
+    "teilhaushalt": "7200",
+    "dienststelle": "Marktamt",
+    "massnahme": "Minderausgaben Stromkosten Großmarkt",
+    "summe_2026": 9000,
+    "summe_2027": 9000
+  },
+  {
+    "id": "HHS4_V292",
+    "vorlagennummer": "2025/0594",
+    "teilhaushalt": "7400",
+    "dienststelle": "Stadtentwässerung",
+    "massnahme": "Stilllegung von Kanalspülfahrzeugen",
+    "summe_2026": 180000,
+    "summe_2027": 180000
+  },
+  {
+    "id": "HHS4_V293",
+    "vorlagennummer": "2025/0594",
+    "teilhaushalt": "7400",
+    "dienststelle": "Stadtentwässerung",
+    "massnahme": "Aufwandsreduzierung bei Kanalinstandsetzung ‐ keine erhöhten Gefahren",
+    "summe_2026": 200000,
+    "summe_2027": 200000
+  },
+  {
+    "id": "HHS4_V294",
+    "vorlagennummer": "2025/0594",
+    "teilhaushalt": "7400",
+    "dienststelle": "Stadtentwässerung",
+    "massnahme": "Aufwandsreduzierung im Klärwerk 4. Reinigungsstufe",
+    "summe_2026": 360000,
+    "summe_2027": 360000
+  },
+  {
+    "id": "HHS4_V295",
+    "vorlagennummer": "2025/0594",
+    "teilhaushalt": "7400",
+    "dienststelle": "Stadtentwässerung",
+    "massnahme": "Aufwandsreduzierung Strombeschaffung im Klärwerk (Solarfaltdach)",
+    "summe_2026": 70000,
+    "summe_2027": 70000
+  },
+  {
+    "id": "HHS4_V296",
+    "vorlagennummer": "2025/0594",
+    "teilhaushalt": "7400",
+    "dienststelle": "Stadtentwässerung",
+    "massnahme": "Verzögerte Besetzung von Personalstellen",
+    "summe_2026": 954200,
+    "summe_2027": 925300
+  },
+  {
+    "id": "HHS4_V297",
+    "vorlagennummer": "2025/0594",
+    "teilhaushalt": "7400",
+    "dienststelle": "Stadtentwässerung",
+    "massnahme": "Einsparung von Festnetztelefonie",
+    "summe_2026": 15000,
+    "summe_2027": 15000
+  },
+  {
+    "id": "HHS4_V298",
+    "vorlagennummer": "2025/0800",
+    "teilhaushalt": "8000",
+    "dienststelle": "Wirtschaftsförderung",
+    "massnahme": "Erarbeitung eines neuen Konzepts für die Stärkung des Wissenschaftsstandorts Karlsruhe ‐ Umstrukturierung der\nErstwohnsitzkampagne",
+    "summe_2026": 505000,
+    "summe_2027": 505000
+  },
+  {
+    "id": "HHS4_V299",
+    "vorlagennummer": "2025/0800",
+    "teilhaushalt": "8000",
+    "dienststelle": "Wirtschaftsförderung",
+    "massnahme": "Besetzungssperre Sekretariatsstelle (0,8 VZW)",
+    "summe_2026": 14211,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V300",
+    "vorlagennummer": "2025/0800",
+    "teilhaushalt": "8000",
+    "dienststelle": "Wirtschaftsförderung",
+    "massnahme": "Nichtbesetzung Stelle \"Innovation und Internationales\" (0,5 VZW)",
+    "summe_2026": 34480,
+    "summe_2027": 47404
+  },
+  {
+    "id": "HHS4_V301",
+    "vorlagennummer": "2025/0546",
+    "teilhaushalt": "8200",
+    "dienststelle": "Forstamt",
+    "massnahme": "Kündigung der Mitgliedschaft in der Forstkammer Baden‐Württemberg",
+    "summe_2026": 2096,
+    "summe_2027": 2096
+  },
+  {
+    "id": "HHS4_V302",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Reduktion der Bauunterhaltung bei städtischen Gebäuden",
+    "summe_2026": 7650000,
+    "summe_2027": 7650000
+  },
+  {
+    "id": "HHS4_V303",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Reduktion der Verwaltungsflächen (ab 2028)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_V304",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Neuausschreibung der Gebäudereinigungsverträge ‐ Kostenreduzierung",
+    "summe_2026": 146666,
+    "summe_2027": 393333
+  },
+  {
+    "id": "HHS4_V305",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Standardreduktion bei der Unterhalts‐ und Glasreinigung in der Gebäudereinigung",
+    "summe_2026": 366666,
+    "summe_2027": 633333
+  },
+  {
+    "id": "HHS4_V306",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Reduktion der Kosten für Wärme und Strom",
+    "summe_2026": 1000000,
+    "summe_2027": 1000000
+  },
+  {
+    "id": "HHS4_V307",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Reduzierung Geschäftsaufwendungen (Mobilfunk, Bekleidung, Fortbildung etc.)",
+    "summe_2026": 700000,
+    "summe_2027": 870000
+  },
+  {
+    "id": "HHS4_V308",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Stellenstreichungen und Widerbesetzungssperren (insg. 17,43 und 12,05 VZW) (Fluktuation und Renteneintritt)",
+    "summe_2026": 1059743,
+    "summe_2027": 984605
+  },
+  {
+    "id": "HHS4_V309",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Beendigung von Mietverhältnissen aufgrund anderweitiger Unterbringung von Dienststellen und Konzentration von\nVerwaltungseinheiten",
+    "summe_2026": 300654,
+    "summe_2027": 345588
+  }
+]

@@ -9,10 +9,11 @@ const props = defineProps<{ open: boolean }>()
 
 const emit = defineEmits<{
   (e: 'close'): void
-  (e: 'save', payload: Omit<Massnahme, 'id'>[]): void
+  (e: 'save', payload: Massnahme[]): void
 }>()
 
 type RowBase = {
+  id: string
   massnahme: string
   teilhaushalt: string
   dienststelle: string
@@ -21,7 +22,7 @@ type RowBase = {
 }
 
 type Row = RowBase & { key: number }
-type ExistingRow = RowBase & { id: number }
+type ExistingRow = RowBase
 
 const INITIAL_ROWS = 1
 const nextKey = ref(0)
@@ -63,6 +64,7 @@ const dienststellenOptions = computed(() => {
 function createRow(): Row {
   return {
     key: nextKey.value++,
+    id: '',
     massnahme: '',
     teilhaushalt: '',
     dienststelle: '',
@@ -91,7 +93,7 @@ function removeRow(key: number) {
 
 function mapMeasureToExistingRow(measure: Massnahme): ExistingRow {
   return {
-    id: measure.id,
+    id: typeof measure.id === 'string' ? measure.id : String(measure.id ?? ''),
     massnahme: measure.massnahme ?? '',
     teilhaushalt: measure.teilhaushalt ?? '',
     dienststelle: measure.dienststelle ?? '',
@@ -141,15 +143,17 @@ function parseAmount(value: string | number): number | null {
   return numeric
 }
 
-function toPayload(row: RowBase): Omit<Massnahme, 'id'> | null {
+function toPayload(row: RowBase): Massnahme | null {
+  const id = row.id.trim()
   const name = row.massnahme.trim()
   const dienststelle = row.dienststelle.trim()
   const teilhaushalt = row.teilhaushalt.trim()
   const summe_2026 = parseAmount(row.summe_2026) ?? 0
   const summe_2027 = parseAmount(row.summe_2027) ?? 0
-  if (!name || !dienststelle || !teilhaushalt) return null
+  if (!id || !name || !dienststelle || !teilhaushalt) return null
   if (summe_2026 + summe_2027 <= 0) return null
   return {
+    id,
     massnahme: name,
     dienststelle,
     teilhaushalt,
@@ -160,15 +164,11 @@ function toPayload(row: RowBase): Omit<Massnahme, 'id'> | null {
 }
 
 function toExistingPayload(row: ExistingRow): Massnahme | null {
-  const payload = toPayload(row)
-  if (!payload) return null
-  return { id: row.id, ...payload }
+  return toPayload(row)
 }
 
 const validPayloads = computed(() =>
-  rows.value
-    .map((row) => toPayload(row))
-    .filter((row): row is Omit<Massnahme, 'id'> => row !== null),
+  rows.value.map((row) => toPayload(row)).filter((row): row is Massnahme => row !== null),
 )
 
 const validCount = computed(() => validPayloads.value.length)
@@ -186,7 +186,7 @@ const existingPayloads = computed(() =>
   existingRows.value.map((row) => ({ id: row.id, payload: toExistingPayload(row) })),
 )
 const existingInvalidIdSet = computed(() => {
-  const ids = new Set<number>()
+  const ids = new Set<string>()
   for (const row of existingPayloads.value) {
     if (!row.payload) ids.add(row.id)
   }
@@ -204,7 +204,7 @@ function existingRowTotal(row: ExistingRow): string {
   return total > 0 ? formatEuro(total) : '–'
 }
 
-function removeExistingRow(id: number) {
+function removeExistingRow(id: string) {
   existingRows.value = existingRows.value.filter((row) => row.id !== id)
   showChangeFeedback('remove', 'Maßnahme entfernt – speichern nicht vergessen.')
 }
@@ -223,8 +223,8 @@ function isExistingRowSelected(row: ExistingRow): boolean {
   return selectedIdSet.value.has(row.id)
 }
 
-function toggleExistingSelection(id: number) {
-  if (!Number.isFinite(id)) return
+function toggleExistingSelection(id: string) {
+  if (!id) return
   budgetStore.toggle(id)
 }
 
@@ -250,14 +250,14 @@ function handleExportJson() {
   }
   const selectedSet = budgetStore.selectedIdSet
   const customPayload = existingRows.value.map((row) => ({
-    id: row.id,
+    id: row.id.trim(),
     massnahme: row.massnahme.trim(),
     teilhaushalt: row.teilhaushalt.trim(),
     dienststelle: row.dienststelle.trim(),
     vorlagennummer: 'Eigene Vorlage',
     summe_2026: parseAmount(row.summe_2026),
     summe_2027: parseAmount(row.summe_2027),
-    selected: selectedSet.has(row.id),
+    selected: selectedSet.has(row.id.trim()),
   }))
   const exportPayload = {
     format: 'ks-custom-measures',
@@ -292,11 +292,13 @@ function normalizeAmountInput(value: unknown): string | number {
   return ''
 }
 
-function normalizeId(value: unknown): number | null {
-  if (typeof value === 'number' && Number.isFinite(value)) return value
+function normalizeId(value: unknown): string | null {
   if (typeof value === 'string') {
-    const parsed = Number(value)
-    if (!Number.isNaN(parsed)) return parsed
+    const trimmed = value.trim()
+    return trimmed || null
+  }
+  if (typeof value === 'number' && Number.isFinite(value)) {
+    return String(value)
   }
   return null
 }
@@ -305,14 +307,14 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return !!value && typeof value === 'object'
 }
 
-function normalizeSelectedIds(value: unknown): number[] | null {
+function normalizeSelectedIds(value: unknown): string[] | null {
   if (!Array.isArray(value)) return null
-  const ids: number[] = []
+  const ids = new Set<string>()
   for (const entry of value) {
     const normalized = normalizeId(entry)
-    if (normalized !== null) ids.push(normalized)
+    if (normalized) ids.add(normalized)
   }
-  return Array.from(new Set(ids))
+  return ids.size ? [...ids] : null
 }
 
 function isSelectedFlag(value: unknown): boolean {
@@ -324,6 +326,7 @@ function isSelectedFlag(value: unknown): boolean {
 
 function toImportedRowBase(entry: Record<string, unknown>): RowBase | null {
   const base: RowBase = {
+    id: normalizeString(entry['id'] ?? entry['massnahmen_nummer']),
     massnahme: normalizeString(entry['massnahme']),
     dienststelle: normalizeString(entry['dienststelle']),
     teilhaushalt: normalizeString(entry['teilhaushalt']),
@@ -352,7 +355,7 @@ type NormalizedScenarioImport = {
   kind: 'scenario'
   existing: ExistingRow[]
   fresh: RowBase[]
-  selectedIds: number[] | null
+  selectedIds: string[] | null
 }
 
 type NormalizedImport = NormalizedLegacyImport | NormalizedScenarioImport
@@ -360,18 +363,18 @@ type NormalizedImport = NormalizedLegacyImport | NormalizedScenarioImport
 function extractRowsFromArray(entries: unknown[]): {
   existing: ExistingRow[]
   fresh: RowBase[]
-  selectedByFlag: number[]
+  selectedByFlag: string[]
 } {
   const existing: ExistingRow[] = []
   const fresh: RowBase[] = []
-  const selectedByFlag: number[] = []
+  const selectedByFlag: string[] = []
   for (const entry of entries) {
     if (!isRecord(entry)) continue
     const rowBase = toImportedRowBase(entry)
     if (!rowBase) continue
-    const maybeId = normalizeId(entry['id'])
+    const maybeId = normalizeId(entry['id'] ?? entry['massnahmen_nummer'])
     if (maybeId !== null) {
-      existing.push({ id: maybeId, ...rowBase })
+      existing.push({ ...rowBase, id: maybeId })
       if (isSelectedFlag(entry['selected'])) selectedByFlag.push(maybeId)
     } else {
       fresh.push(rowBase)
@@ -536,7 +539,8 @@ onBeforeUnmount(() => {
       <div class="max-h-[70vh] space-y-4 overflow-y-auto px-4 py-5 sm:px-6">
         <div class="flex flex-wrap items-center justify-between gap-3 text-xs text-slate-600">
           <p>
-            Ergänze in jeder Zeile Titel, Dienststelle, Teilhaushalt und mindestens einen Betrag.
+            Ergänze in jeder Zeile eine eindeutige Maßnahmen-Nummer, Titel, Dienststelle,
+            Teilhaushalt und mindestens einen Betrag.
           </p>
           <div class="flex flex-wrap items-center gap-2">
             <button
@@ -590,7 +594,8 @@ onBeforeUnmount(() => {
           <table class="min-w-full text-left text-[13px] text-slate-800">
             <thead>
               <tr class="text-[11px] uppercase tracking-wide text-slate-500">
-                <th class="w-[32%] px-2 py-2">Maßnahme</th>
+                <th class="w-[14%] px-2 py-2">Maßnahmen-Nr.</th>
+                <th class="w-[28%] px-2 py-2">Maßnahme</th>
                 <th class="w-[18%] px-2 py-2">Dienststelle</th>
                 <th class="w-[16%] px-2 py-2">Teilhaushalt</th>
                 <th class="px-2 py-2 text-right">2026</th>
@@ -601,7 +606,15 @@ onBeforeUnmount(() => {
             </thead>
             <TransitionGroup tag="tbody" name="row-fade">
               <tr v-for="row in rows" :key="row.key" class="border-t border-slate-100 text-sm">
-                <td class="w-[32%] px-2 py-2">
+                <td class="w-[14%] px-2 py-2">
+                  <input
+                    v-model="row.id"
+                    type="text"
+                    placeholder="z. B. HHS4_X1"
+                    class="w-full rounded-xl border border-slate-200 bg-slate-50 px-2 py-1.5 text-sm uppercase tracking-wide text-slate-900 focus-visible:border-indigo-400 focus-visible:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-100"
+                  />
+                </td>
+                <td class="w-[28%] px-2 py-2">
                   <input
                     v-model="row.massnahme"
                     type="text"
@@ -726,7 +739,8 @@ onBeforeUnmount(() => {
               <thead>
                 <tr class="text-[11px] uppercase tracking-wide text-slate-500">
                   <th class="w-[6%] px-2 py-2 text-center">Auswahl</th>
-                  <th class="w-[32%] px-2 py-2">Maßnahme</th>
+                  <th class="w-[16%] px-2 py-2">Maßnahmen-Nr.</th>
+                  <th class="w-[28%] px-2 py-2">Maßnahme</th>
                   <th class="w-[18%] px-2 py-2">Dienststelle</th>
                   <th class="w-[16%] px-2 py-2">Teilhaushalt</th>
                   <th class="px-2 py-2 text-right">2026</th>
@@ -751,7 +765,14 @@ onBeforeUnmount(() => {
                       :aria-label="`Maßnahme ${row.massnahme || row.id} auswählen`"
                     />
                   </td>
-                  <td class="w-[32%] px-2 py-2">
+                  <td class="w-[16%] px-2 py-2">
+                    <input
+                      v-model="row.id"
+                      type="text"
+                      class="w-full rounded-xl border border-slate-200 bg-white px-2 py-1.5 text-sm uppercase tracking-wide text-slate-900 focus-visible:border-indigo-400 focus-visible:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-100"
+                    />
+                  </td>
+                  <td class="w-[28%] px-2 py-2">
                     <input
                       v-model="row.massnahme"
                       type="text"
@@ -814,8 +835,8 @@ onBeforeUnmount(() => {
             </table>
           </div>
           <p v-if="existingInvalidIdSet.size" class="mt-3 text-xs font-medium text-rose-600">
-            Ungültige Zeilen sind markiert – fülle alle Pflichtfelder aus und gib mindestens einen
-            Betrag an.
+            Ungültige Zeilen sind markiert – fülle Nummer, Titel, Dienststelle, Teilhaushalt und
+            mindestens einen Betrag aus.
           </p>
           <div class="mt-4 flex flex-wrap items-center justify-between gap-3">
             <button

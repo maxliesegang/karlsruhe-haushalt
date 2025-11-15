@@ -3,7 +3,7 @@ import type { FilterState } from '@/utils/filterState'
 import { savingsForMode, type SavingsMode } from '@/utils/savings'
 
 export type MeasureFilterOptions = {
-  excludeIds?: Iterable<number>
+  excludeIds?: Iterable<string>
 }
 
 type NormalizedRange = { min: number; max: number }

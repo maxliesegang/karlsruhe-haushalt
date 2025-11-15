@@ -8,10 +8,10 @@ const props = withDefaults(
     loading: boolean
     error: string | null
     measures: Massnahme[]
-    selectedIds: number[]
+    selectedIds: string[]
     savingsMode: SavingsMode
     showCompensationButton?: boolean
-    compensatedIds?: number[]
+    compensatedIds?: string[]
   }>(),
   {
     showCompensationButton: true,
@@ -20,14 +20,14 @@ const props = withDefaults(
 )
 
 const emit = defineEmits<{
-  (e: 'toggle', id: number): void
+  (e: 'toggle', id: string): void
   (e: 'compensate', measure: Massnahme): void
 }>()
 
 const selectedIdsSet = computed(() => new Set(props.selectedIds))
 const compensatedIdSet = computed(() => new Set(props.compensatedIds))
 
-const onRowClick = (event: MouseEvent, id: number) => {
+const onRowClick = (event: MouseEvent, id: string) => {
   const target = event.target as HTMLElement | null
   if (target?.closest('input, button, a')) return
   emit('toggle', id)

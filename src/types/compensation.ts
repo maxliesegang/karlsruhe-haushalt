@@ -1,4 +1,4 @@
 export interface CompensationEntry {
-  sourceId: number
+  sourceId: string
   amount: number
 }

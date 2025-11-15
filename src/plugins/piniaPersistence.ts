@@ -12,7 +12,7 @@ import { STORAGE_CONFIG } from '@/config/constants'
 const STORAGE_KEY = STORAGE_CONFIG.STORAGE_KEY
 
 type StoredPayload = {
-  selectedIds?: number[]
+  selectedIds?: string[]
   yearMode?: '2026' | '2027' | 'both'
   customMassnahmen?: unknown[]
 }
@@ -54,7 +54,7 @@ export function piniaPersistencePlugin({ store }: PiniaPluginContext) {
 /**
  * Update URL hash with selected IDs
  */
-function updateHash(selectedIds: number[]) {
+function updateHash(selectedIds: string[]) {
   const hash = selectedIds.length ? `sel=${selectedIds.join(',')}` : ''
   if (hash) {
     window.location.hash = hash

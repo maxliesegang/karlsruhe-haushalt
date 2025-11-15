@@ -1,0 +1,875 @@
+[
+  {
+    "id": "HHS4_GR1",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Streichung der Mittel für die Entwicklungspartnerschaft (Partnerschaftsbörse Eine Welt Karlsruhe e.V.)",
+    "summe_2026": 30750,
+    "summe_2027": 30750
+  },
+  {
+    "id": "HHS4_GR2",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Streichung der Mittel für die Entwicklungspolitische Bildungsarbeit",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_GR3",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Reduzierung der Zuschüsse an die Bürgervereine / Arbeitsgemeinschaft Karlsruher Bürgervereine",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR4",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Kürzung der Zuschüsse an die Gemeinderatsfraktionen",
+    "summe_2026": 19500,
+    "summe_2027": 19500
+  },
+  {
+    "id": "HHS4_GR5",
+    "vorlagennummer": "2025/0605",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Verzicht auf Freifahrtberechtigungen und Parkwertkarten für Gemeinderatsmitglieder",
+    "summe_2026": 30000,
+    "summe_2027": 30000
+  },
+  {
+    "id": "HHS4_GR6",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "1000",
+    "dienststelle": "Hauptamt",
+    "massnahme": "Verzicht auf Erhöhung der Entschädigung für ehrenamtliche Tätigkeit in der Stadt Karlsruhe zum 1. Januar 2027",
+    "summe_2026": 0,
+    "summe_2027": 113000
+  },
+  {
+    "id": "HHS4_GR7",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Aufhebung Soziale Erhaltungssatzung \"Alte Südstadt\" (siehe auch BOA und LA) ‐ Besetzungssperre",
+    "summe_2026": 103000,
+    "summe_2027": 103000
+  },
+  {
+    "id": "HHS4_GR8",
+    "vorlagennummer": "2025/0596",
+    "teilhaushalt": "1200",
+    "dienststelle": "Amt für Stadtentwicklung",
+    "massnahme": "Reduzierung der Bezuschussung von Stadtteilhäusern (Reinigung, Mietkosten, Südwerk und nicht verausgabtes Budget)",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_GR9",
+    "vorlagennummer": "2025/0648",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Grötzingen",
+    "massnahme": "Streichung der Zuschüsse für Grötzinger Vereine, die keine Zuschüsse von anderer städtischer Stelle erhalten haben",
+    "summe_2026": 7000,
+    "summe_2027": 7000
+  },
+  {
+    "id": "HHS4_GR10",
+    "vorlagennummer": "2025/0648",
+    "teilhaushalt": "1500",
+    "dienststelle": "OV Grötzingen",
+    "massnahme": "Optimierung und strategische Neuausrichtung der Öffentlichkeitsarbeit",
+    "summe_2026": 17000,
+    "summe_2027": 17000
+  },
+  {
+    "id": "HHS4_GR11",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Erhöhung Vergnügungssteuer (Hebesatz von 24% auf 25%)",
+    "summe_2026": 315000,
+    "summe_2027": 315000
+  },
+  {
+    "id": "HHS4_GR12",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Erhöhung Zweitwohnungssteuer (Hebesatz von 12% auf 14%)",
+    "summe_2026": 130000,
+    "summe_2027": 130000
+  },
+  {
+    "id": "HHS4_GR13",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Erhöhung Hundesteuer (132 Euro auf 144 Euro pro Hund)",
+    "summe_2026": 120000,
+    "summe_2027": 120000
+  },
+  {
+    "id": "HHS4_GR14",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Ausweitung City‐Tax auf Parahotellerie",
+    "summe_2026": 1000000,
+    "summe_2027": 1000000
+  },
+  {
+    "id": "HHS4_GR15",
+    "vorlagennummer": "2025/0650",
+    "teilhaushalt": "2000",
+    "dienststelle": "Stadtkämmerei",
+    "massnahme": "Beitrag Beteiligungsgesellschaften",
+    "summe_2026": 3468998,
+    "summe_2027": 3468998
+  },
+  {
+    "id": "HHS4_GR16",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "3000",
+    "dienststelle": "Zentraler Juristischer Dienst",
+    "massnahme": "Erhöhung der Verwaltungsgebühren (untere Umweltverwaltungsbehörde und im Justiziariat)",
+    "summe_2026": 0,
+    "summe_2027": 12776
+  },
+  {
+    "id": "HHS4_GR17",
+    "vorlagennummer": "2025/0567",
+    "teilhaushalt": "3100",
+    "dienststelle": "Umwelt‐ und Arbeitsschutz",
+    "massnahme": "Reduzierung Mittel Klimaschutzfonds ‐ Umsetzung der Maßnahmen in 2026 und 2027 durch HH‐Reste aus 2025",
+    "summe_2026": 1000000,
+    "summe_2027": 1000000
+  },
+  {
+    "id": "HHS4_GR18",
+    "vorlagennummer": "2025/0567",
+    "teilhaushalt": "3100",
+    "dienststelle": "Umwelt‐ und Arbeitsschutz",
+    "massnahme": "Reduzierung Sammelansatz Klimaschutzkonzept 2030 ‐ Fokussierung auf effiziente Maßnahmen zur CO2‐Reduktion",
+    "summe_2026": 5665853,
+    "summe_2027": 5667728
+  },
+  {
+    "id": "HHS4_GR19",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Erhöhung der Bewohnerparkausweisgebühren (180 Euro auf 360 Euro)",
+    "summe_2026": 500000,
+    "summe_2027": 500000
+  },
+  {
+    "id": "HHS4_GR20",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Erhöhung der Sondernutzungsgebühren um 20%",
+    "summe_2026": 216930,
+    "summe_2027": 216930
+  },
+  {
+    "id": "HHS4_GR21",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Einführung einer Sondernutzungsgebühr für E‐Scooter (70 Euro) ‐ Reglementierungszweck",
+    "summe_2026": 140000,
+    "summe_2027": 140000
+  },
+  {
+    "id": "HHS4_GR22",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Einführung einer Gebühr für die Reservierung der Trautermine im Onlinetraukalender (30 Euro) ‐ u.a. Vermeidung der\nsehr frühzeitigen Reservierung mehrerer Termine",
+    "summe_2026": 21000,
+    "summe_2027": 21000
+  },
+  {
+    "id": "HHS4_GR23",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Kündigung Mitgliedschaft \"Deutsch‐Europäisches Forum für urbane Sicherheit (DEFUS)\"",
+    "summe_2026": 6000,
+    "summe_2027": 6000
+  },
+  {
+    "id": "HHS4_GR24",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Streichung der Position der ehrenamtlichen Tierschutzbeauftragen",
+    "summe_2026": 20000,
+    "summe_2027": 20000
+  },
+  {
+    "id": "HHS4_GR25",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Reduzierung Budget Stadttaubenkonzept",
+    "summe_2026": 42000,
+    "summe_2027": 42000
+  },
+  {
+    "id": "HHS4_GR26",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Einstellung der Zuschüsse für abgelehnte Hundeführerscheine",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR27",
+    "vorlagennummer": "2025/0592",
+    "teilhaushalt": "3200",
+    "dienststelle": "Ordnungs‐ und Bürgeramt",
+    "massnahme": "Reduzierung Mittel Tierschutzfond (kleine Wildtiere und Wildvögel)",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR28",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Betriebskostenzuschusses für die Europäische Schule (Personalabordnung) ‐ bereits seit 2023 nicht mehr\nerfolgt",
+    "summe_2026": 95000,
+    "summe_2027": 95000
+  },
+  {
+    "id": "HHS4_GR29",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung der Zuschüsse an Privatschulen",
+    "summe_2026": 236801,
+    "summe_2027": 237928
+  },
+  {
+    "id": "HHS4_GR30",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Zuschusses an Junior Slow Karlsruhe e.V. ‐ Kinderkochwagen",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR31",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung Ergänzende Betreuung (bis 14 Uhr) an Ganztagsgrundschulen ‐ Personal für steigende Bedarfe durch\nRechtsanspruch",
+    "summe_2026": 571852,
+    "summe_2027": 1350875
+  },
+  {
+    "id": "HHS4_GR32",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Konzept zur Optimierung des freigestellten Schülerverkehrs",
+    "summe_2026": 92500,
+    "summe_2027": 193000
+  },
+  {
+    "id": "HHS4_GR33",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des freiwilligen ÖPNV‐Zuschuss für Grundschulkinder beim Jugendticket BW über Eigenanteil hinaus",
+    "summe_2026": 132700,
+    "summe_2027": 227500
+  },
+  {
+    "id": "HHS4_GR34",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung Zuschuss Reitinstitut von Neindorff",
+    "summe_2026": 0,
+    "summe_2027": 60370
+  },
+  {
+    "id": "HHS4_GR35",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Jugendzuschusses in der Sportförderung (15 Euro pro jugendlichem Mitglied)",
+    "summe_2026": 410000,
+    "summe_2027": 410000
+  },
+  {
+    "id": "HHS4_GR36",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Fahrtkostenzuschusses in der Sportförderung",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_GR37",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung der Leistungssportförderung",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR38",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Einführung eines Eigenanteils zu den Beförderungskosten im freigestellten Schülerverkehr ab Klassenstufe 1",
+    "summe_2026": 120000,
+    "summe_2027": 300000
+  },
+  {
+    "id": "HHS4_GR39",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Erhöhung der Gebühren für den Besuch der öffentlichen Fachschulen um 50% (Stand vor 2020)",
+    "summe_2026": 165000,
+    "summe_2027": 330000
+  },
+  {
+    "id": "HHS4_GR40",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Erhöhung der Mittagessenentgelte in Schulen auf 5,00 Euro pro Essen (nur steigende Cateringkosten, keine\nKostendeckung)",
+    "summe_2026": 464000,
+    "summe_2027": 464000
+  },
+  {
+    "id": "HHS4_GR41",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Abschaffung Geschwisterkindregelung in der \"Ergänzenden Betreuung\" und der flexiblen Nachmittagsbetreuung\n(Deckung steigender Kosten)",
+    "summe_2026": 37330,
+    "summe_2027": 112000
+  },
+  {
+    "id": "HHS4_GR42",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Abschaffung Entgeltbefreiung \"Ergänzende Betreuung\" (Deckung steigender Kosten)",
+    "summe_2026": 46670,
+    "summe_2027": 140000
+  },
+  {
+    "id": "HHS4_GR43",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Wegfall \"Avdual\"‐Programm mit regionalem Übergangsmanagement",
+    "summe_2026": 263000,
+    "summe_2027": 263000
+  },
+  {
+    "id": "HHS4_GR44",
+    "vorlagennummer": "2025/0695",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung der Zuschüsse für Schüleraustausche",
+    "summe_2026": 28640,
+    "summe_2027": 28640
+  },
+  {
+    "id": "HHS4_GR45",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "4000",
+    "dienststelle": "Schul‐ und Sportamt",
+    "massnahme": "Streichung des Übungsleiter*innenzuschusses (Ziffer 7.1 Übungsleiter*innenzuschuss der Sportförderungsrichtlinien )",
+    "summe_2026": 650000,
+    "summe_2027": 650000
+  },
+  {
+    "id": "HHS4_GR46",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Reduzierung Kostenbeteiligung beim Badisches Staatstheater um 8,7 %",
+    "summe_2026": 2429160,
+    "summe_2027": 2429160
+  },
+  {
+    "id": "HHS4_GR47",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Kürzung der institutionellen Förderung beim ZKM um 8,7%",
+    "summe_2026": 871920,
+    "summe_2027": 871920
+  },
+  {
+    "id": "HHS4_GR48",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Kürzung der institutionellen Förderung bei der VHS um 8,7%",
+    "summe_2026": 180740,
+    "summe_2027": 180740
+  },
+  {
+    "id": "HHS4_GR49",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Pauschale Kürzung der institutionellen Förderung bei der Astronomischen Vereinigung, im Theaterbereich, im\nMusikbereich, bei der Kindermalwerkstatt, bei den übrigen Kultureinrichtungen um 8,7%",
+    "summe_2026": 326680,
+    "summe_2027": 326680
+  },
+  {
+    "id": "HHS4_GR50",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Kürzung der quasi institutionellen Förderung um 10%",
+    "summe_2026": 44290,
+    "summe_2027": 44290
+  },
+  {
+    "id": "HHS4_GR51",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Einstellung der Projektförderung freier und innovativer Projekte sowie \"Schule und Kultur\" und \"Wochen gegen\nRassismus\"",
+    "summe_2026": 389690,
+    "summe_2027": 389690
+  },
+  {
+    "id": "HHS4_GR52",
+    "vorlagennummer": "2025/0568",
+    "teilhaushalt": "4100",
+    "dienststelle": "Kulturamt",
+    "massnahme": "Einstellung des Sonderausstellungsprogramms im Stadtmuseum ‐ auch als Folge aus HHS Stufe 3",
+    "summe_2026": 18000,
+    "summe_2027": 18000
+  },
+  {
+    "id": "HHS4_GR53",
+    "vorlagennummer": "2025/0872",
+    "teilhaushalt": "4300",
+    "dienststelle": "Musikschulen",
+    "massnahme": "Erhöhung der Gebühren um 10 % ab 2027",
+    "summe_2026": 0,
+    "summe_2027": 264236
+  },
+  {
+    "id": "HHS4_GR54",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Streichung der Gewaltpräventionsmittel",
+    "summe_2026": 37500,
+    "summe_2027": 37500
+  },
+  {
+    "id": "HHS4_GR55",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Beförderungsdienst für Personen ab dem Pflegegrad 3 nur mit Nachweis einer Schwerbehinderung (Fortsetzung\nMaßnahme Haushaltssperre 2025)",
+    "summe_2026": 360000,
+    "summe_2027": 360000
+  },
+  {
+    "id": "HHS4_GR56",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Projekteinstellung Muttersprachliche Kita‐Lots*innen (AWO) ‐ Aufgabe bleibt erhalten",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_GR57",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Projekteinstellung Hebammen in Familienzentren (Freiberufliche Hebammen)",
+    "summe_2026": 58000,
+    "summe_2027": 58000
+  },
+  {
+    "id": "HHS4_GR58",
+    "vorlagennummer": "2025/0846",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Stufenweise Reduzierung des Geschwisterkindzuschusses und die Auswirkungen auf die Kita‐Finanzierung",
+    "summe_2026": 6877070,
+    "summe_2027": 8685160
+  },
+  {
+    "id": "HHS4_GR59",
+    "vorlagennummer": "Handout im SozA am\n24.09.2025",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Reduzierungen der Zuschüsse im Bereich der freien Wohlfahrtspflege und freien Jugendhilfe ‐ in Abstimmung mit den\nBetroffenen",
+    "summe_2026": 1470600,
+    "summe_2027": 2000000
+  },
+  {
+    "id": "HHS4_GR60",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "5000",
+    "dienststelle": "Sozial‐ und Jugendbehörde",
+    "massnahme": "Erhöhung der Verpflegungsentgelte in den städtischen Kindertageseinrichtungen",
+    "summe_2026": 286800,
+    "summe_2027": 286800
+  },
+  {
+    "id": "HHS4_GR61",
+    "vorlagennummer": "2025/0871",
+    "teilhaushalt": "5200",
+    "dienststelle": "Bäderbetriebe",
+    "massnahme": "Schließung des Rheinstrandbads Rappenwört für 2 Jahre ‐ während Ausbau des Restaurants und Ertüchtigung des\nFreibads",
+    "summe_2026": 902245,
+    "summe_2027": 902245
+  },
+  {
+    "id": "HHS4_GR62",
+    "vorlagennummer": "2025/0871",
+    "teilhaushalt": "5200",
+    "dienststelle": "Bäderbetriebe",
+    "massnahme": "Erhöhung der Tarife der städtischen Hallen‐ und Freibäder, einschließlich Therme Vierordtbad ab 01.01.2026",
+    "summe_2026": 900000,
+    "summe_2027": 900000
+  },
+  {
+    "id": "HHS4_GR63",
+    "vorlagennummer": "2025/0871",
+    "teilhaushalt": "5200",
+    "dienststelle": "Bäderbetriebe",
+    "massnahme": "Erhöhung der Tarife der städtischen Hallen‐ und Freibäder, einschließlich Therme Vierordtbad ab 01.01.2028",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_GR64",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Aufhebung Soziale Erhaltungssatzung \"Alte Südstadt\" (siehe auch AfSta und BOA)",
+    "summe_2026": 47500,
+    "summe_2027": 48900
+  },
+  {
+    "id": "HHS4_GR65",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Aufgabe Baulandkataster und Baulückenprogramm (ab 2028)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_GR66",
+    "vorlagennummer": "2025/0591",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Stellenstreichung Förderprogramm KlimaBonus (1 VZW) ‐ in Absprache mit Umweltamt",
+    "summe_2026": 95000,
+    "summe_2027": 97800
+  },
+  {
+    "id": "HHS4_GR67",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Einführung einer Gebühr für die Erteilung von Hausnummern (49 Euro)",
+    "summe_2026": 0,
+    "summe_2027": 4900
+  },
+  {
+    "id": "HHS4_GR68",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Einführung einer Gebühr für die Erteilung von Wohnberechtigungsscheinen (20 Euro)",
+    "summe_2026": 0,
+    "summe_2027": 28000
+  },
+  {
+    "id": "HHS4_GR69",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Einführung einer Gebühr für die Genehmigung nach § 51 BauGB (149 Euro)",
+    "summe_2026": 0,
+    "summe_2027": 1490
+  },
+  {
+    "id": "HHS4_GR70",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Erhöhung der Gebühr für Baulastenauskünfte und Erschließungskosten (29 Euro auf 39 Euro)",
+    "summe_2026": 0,
+    "summe_2027": 23000
+  },
+  {
+    "id": "HHS4_GR71",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6200",
+    "dienststelle": "Liegenschaftsamt",
+    "massnahme": "Erhöhung der Gebühr für Genehmigungen nach § 144 BauGB (99 Euro auf 149 Euro)",
+    "summe_2026": 0,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_GR72",
+    "vorlagennummer": "2025/0558",
+    "teilhaushalt": "6300",
+    "dienststelle": "Bauordnungsamt",
+    "massnahme": "Aufhebung Soziale Erhaltungssatzung \"Alte Südstadt\" (siehe auch AfSta und LA) ‐ hier Stelle Milieuschutz",
+    "summe_2026": 95400,
+    "summe_2027": 95400
+  },
+  {
+    "id": "HHS4_GR73",
+    "vorlagennummer": "2025/0558",
+    "teilhaushalt": "6300",
+    "dienststelle": "Bauordnungsamt",
+    "massnahme": "Erhöhung der Genehmigungsgebühr im Baugenehmigungsverfahren",
+    "summe_2026": 0,
+    "summe_2027": 265000
+  },
+  {
+    "id": "HHS4_GR74",
+    "vorlagennummer": "2025/0558",
+    "teilhaushalt": "6300",
+    "dienststelle": "Bauordnungsamt",
+    "massnahme": "Erhöhung der Genehmigungsgebühr im Vereinfachten Baugenehmigungsverfahren",
+    "summe_2026": 0,
+    "summe_2027": 53000
+  },
+  {
+    "id": "HHS4_GR75",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Einführung einer LED Nachtabsenkung bei Straßenbeleuchtung",
+    "summe_2026": 50000,
+    "summe_2027": 50000
+  },
+  {
+    "id": "HHS4_GR76",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Einstellung der freiwilligen Absicherungstätigkeiten bei KSC‐Spielen",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR77",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Einstellen der freiwilligen Absicherungstätigkeiten bei Kategorie 1 Veranstaltungen (VigI)",
+    "summe_2026": 10000,
+    "summe_2027": 10000
+  },
+  {
+    "id": "HHS4_GR79",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Außerbetriebnahme des Parkleitsystems",
+    "summe_2026": 35000,
+    "summe_2027": 35000
+  },
+  {
+    "id": "HHS4_GR80",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Änderung der Wartungszeiten des Karoline‐Luise‐Tunnels (zweimal im Jahr, von nachts auf tagsüber)",
+    "summe_2026": 25000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_GR81",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Zurückstellung der Herstellung von Fahrradstraßen durch reine Markierungsarbeiten oder kleinere bauliche Maßnahmen",
+    "summe_2026": 40000,
+    "summe_2027": 40000
+  },
+  {
+    "id": "HHS4_GR82",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Dauerhafter Verzicht auf das Lichterfest",
+    "summe_2026": 0,
+    "summe_2027": 150000
+  },
+  {
+    "id": "HHS4_GR83",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Keine Beschaffung von Weihnachtsbäumen mit Ausnahme des Baumes auf dem Marktplatz",
+    "summe_2026": 70000,
+    "summe_2027": 70000
+  },
+  {
+    "id": "HHS4_GR84",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Dauerhafte Reduzierung der Zahl der Spielplätze um 80 im Bestand in den nächsten fünf Jahren",
+    "summe_2026": 5000,
+    "summe_2027": 5000
+  },
+  {
+    "id": "HHS4_GR85",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Vorübergehende Stilllegung aller Zierbrunnen mit Ausnahme der Wasserspiele am Marktplatz, der\nFriedrichsplatzfontäne, des Brunnens am Haydnplatz sowie der Wasserorgel und des Säulenbrunnens in der Wolff‐\nAnlage im Stadtgarten (2026 und 2027)",
+    "summe_2026": 320000,
+    "summe_2027": 320000
+  },
+  {
+    "id": "HHS4_GR86",
+    "vorlagennummer": "2025/0559",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Einführung einer Verwaltungsgebühr für die Bearbeitung von Baumfällanträgen nach Baumschutzsatzung",
+    "summe_2026": 0,
+    "summe_2027": 50000
+  },
+  {
+    "id": "HHS4_GR87",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Verzicht auf die Beschaffung von Hundekotbeuteln",
+    "summe_2026": 25000,
+    "summe_2027": 25000
+  },
+  {
+    "id": "HHS4_GR88",
+    "vorlagennummer": "2025/0992",
+    "teilhaushalt": "6700",
+    "dienststelle": "Gartenbauamt",
+    "massnahme": "Anpassung Eintrittsentgelte Zoologischer Stadtgarten ‐ Anteil GBA",
+    "summe_2026": 200000,
+    "summe_2027": 200000
+  },
+  {
+    "id": "HHS4_GR89",
+    "vorlagennummer": "2025/0533",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Schließung und Räumung des Zoologischen Stadtgartens eine Stunde nach Kassenschluss",
+    "summe_2026": 100000,
+    "summe_2027": 100000
+  },
+  {
+    "id": "HHS4_GR90",
+    "vorlagennummer": "2025/0533\n2025/0838\n(Umsetzung)",
+    "teilhaushalt": "6800",
+    "dienststelle": "Zoo",
+    "massnahme": "Anpassung der Eintrittsentgelte",
+    "summe_2026": 400000,
+    "summe_2027": 400000
+  },
+  {
+    "id": "HHS4_GR91",
+    "vorlagennummer": "2025/0549",
+    "teilhaushalt": "6900",
+    "dienststelle": "Friedhof‐ und\nBestattungsamt",
+    "massnahme": "Anpassung der Entgelte beim Friedhof",
+    "summe_2026": 50000,
+    "summe_2027": 50000
+  },
+  {
+    "id": "HHS4_GR92",
+    "vorlagennummer": "2025/0549",
+    "teilhaushalt": "6900",
+    "dienststelle": "Friedhof‐ und\nBestattungsamt",
+    "massnahme": "Erhöhung des Kostendeckungsgrads in den gebührenfähigen Bereichen",
+    "summe_2026": 100000,
+    "summe_2027": 100000
+  },
+  {
+    "id": "HHS4_GR93",
+    "vorlagennummer": "2025/0546",
+    "teilhaushalt": "8200",
+    "dienststelle": "Forstamt",
+    "massnahme": "Stellenstreichung Forstwirt*in",
+    "summe_2026": 72625,
+    "summe_2027": 74659
+  },
+  {
+    "id": "HHS4_GR94",
+    "vorlagennummer": "2025/0546",
+    "teilhaushalt": "8200",
+    "dienststelle": "Forstamt",
+    "massnahme": "Selbstständige Verpachtung der Eigenjagdbezirke Wald (ab 2030)",
+    "summe_2026": 0,
+    "summe_2027": 0
+  },
+  {
+    "id": "HHS4_GR95",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Verkauf von nicht für die Daseinsvorsorge benötigter Immobilien",
+    "summe_2026": 0,
+    "summe_2027": 100000
+  },
+  {
+    "id": "HHS4_GR96",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Streichung Mietkostenzuschüsse Hallen am Festplatz (u.a. Pfennigbasar) ‐ Entfall Bezuschussung insgesamt",
+    "summe_2026": 48000,
+    "summe_2027": 48000
+  },
+  {
+    "id": "HHS4_GR97",
+    "vorlagennummer": "2025/0604",
+    "teilhaushalt": "8800",
+    "dienststelle": "Hochbau‐ und\nGebäudewirtschaft",
+    "massnahme": "Projekteinstellung \"Erhöhung der Eigenreinigung bei der Unterhaltsreinigung auf 50%\"",
+    "summe_2026": 500000,
+    "summe_2027": 500000
+  },
+  {
+    "id": "HHS4_GR78",
+    "vorlagennummer": "2025/0593",
+    "teilhaushalt": "6600",
+    "dienststelle": "Tiefbauamt",
+    "massnahme": "Erhöhung der Parkgebühren bei mittels Parkscheinautomaten bewirtschafteten öffentlichen Stellplätzen um 100%",
+    "summe_2026": 5250000,
+    "summe_2027": 5250000
+  }
+]
